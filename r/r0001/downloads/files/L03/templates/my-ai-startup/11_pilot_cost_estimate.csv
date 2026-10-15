@@ -1,0 +1,8 @@
+item,kind,quantity,unit,unit_cost_eur,total_eur,assumption_status,notes
+production_and_review,imputed_founder_time,5,hour,25,125,SYNTHETIC,"Сценарная оценка времени; не фактический платёж"
+sales_and_coordination,imputed_founder_time,2,hour,25,50,SYNTHETIC,"Время обсуждений тоже стоит денег"
+ai_usage,cash_assumption,1,pilot,10,10,SYNTHETIC,"Пока неизвестны реальные тарифы и использование"
+other_variable,cash_assumption,1,pilot,15,15,SYNTHETIC,"Накладные переменные расходы учебного примера"
+TOTAL,economic_cost,,,,200,SYNTHETIC,"Сумма четырех статей"
+PROPOSED_PRICE,revenue_hypothesis,1,pilot,240,240,SYNTHETIC,"Не является реальной выручкой"
+DIFFERENCE,price_minus_cost,,,,40,SYNTHETIC,"Не бухгалтерская валовая прибыль"

@@ -1,0 +1,988 @@
+{
+  "fragments_digest": "7d88ce9e352aaa620a6409d949b1a34fed6fa6cc7bd164fe3c80acc6b475aeb5",
+  "lessons": [
+    {
+      "lesson_id": "ANS.L01",
+      "title": "Компания из одного человека и команды ИИ",
+      "units": [
+        {
+          "bundle_revision_hash": "51d006655dee2524483e5d90c083a5238067a319175747d24b44cf20d55cb817",
+          "file": "units/ANS.L01.S00.pdf",
+          "heading": "Паспорт урока",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "9c07bc5304777c112c55292acb0e89a3786a0d5a5f9c0391c3fe042f7684f2f5",
+          "unit_id": "ANS.L01.S00"
+        },
+        {
+          "bundle_revision_hash": "2cb611b79b0cb0c1c49d15cfccc7f47028d3dbebb656448c9180bfef66eddae4",
+          "file": "units/ANS.L01.S01.pdf",
+          "heading": "Чему вы научитесь",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "0e54e821fd50111570301690e92e913baae45eb9c95b2b6fe5da254f12cdfe46",
+          "unit_id": "ANS.L01.S01"
+        },
+        {
+          "bundle_revision_hash": "f0bcc5016ceeb8348719c0a826f2477894d00d1528c608f358c5025b2011f8bb",
+          "file": "units/ANS.L01.S02.pdf",
+          "heading": "1. Знакомая ситуация: «Мы очень заняты, но что изменилось?»",
+          "kind": "S",
+          "pages": 2,
+          "sha256": "ad70f6bb83d2b354d73f90e5c77c56bc0d5f6b6889445b851440360ee242ad1d",
+          "unit_id": "ANS.L01.S02"
+        },
+        {
+          "bundle_revision_hash": "52a12071d9a910c53ff863bfb7c8485d7b174627064f0f39d45945a9fe21cfbf",
+          "file": "units/ANS.L01.S03.pdf",
+          "heading": "2. Что означает «компания, построенная вокруг ИИ»",
+          "kind": "S",
+          "pages": 3,
+          "sha256": "a693a79fbc54843be7d68c6792fad3534bdd492643cbcc6e96797d6ee34e9920",
+          "unit_id": "ANS.L01.S03"
+        },
+        {
+          "bundle_revision_hash": "9a952d953845fb23dc24d8bc68e0706ef20f16094caa13ca497ff05e85f10a58",
+          "file": "units/ANS.L01.S04.pdf",
+          "heading": "3. Бизнес — это путь клиента, а не список функций",
+          "kind": "S",
+          "pages": 2,
+          "sha256": "b9b534aca4f397b7d8e3de8e1f618108a00c7cbb73f02e5930c7bbcf55d7cb6f",
+          "unit_id": "ANS.L01.S04"
+        },
+        {
+          "bundle_revision_hash": "2bcd7bf7c5f4d3e650eed3496f30b5bff5ef6136ef222469ef2b6baac27da935",
+          "file": "units/ANS.L01.S05.pdf",
+          "heading": "4. Практический кейс: сто обращений в поддержку",
+          "kind": "S",
+          "pages": 2,
+          "sha256": "8291c5223e9400b35530489deb10d613c00e318c50c2a365f48adba3bf685ff6",
+          "unit_id": "ANS.L01.S05"
+        },
+        {
+          "bundle_revision_hash": "1afe401b71d4c21bd4a9d13fb201d8432339d4f45b59600377a3d3fe7109e3a1",
+          "file": "units/ANS.L01.S06.pdf",
+          "heading": "5. Что именно стоит доверить искусственному интеллекту",
+          "kind": "S",
+          "pages": 2,
+          "sha256": "95b66e39309c85be8a09f294474a28da0e23517e11eb2d552c7eed4ac0b4b120",
+          "unit_id": "ANS.L01.S06"
+        },
+        {
+          "bundle_revision_hash": "77d99b368d59b7faaf2e4342e67e1e2831235f34a0b8919f62d0cdc2c678c6d7",
+          "file": "units/ANS.L01.S07.pdf",
+          "heading": "6. Первая демонстрация с ИИ: от идеи к проверяемой гипотезе",
+          "kind": "S",
+          "pages": 2,
+          "sha256": "e2ca125e8093a8774f8e3de544b9d3f1047398b46fa4c1cbca7cc5f1b3ef2c88",
+          "unit_id": "ANS.L01.S07"
+        },
+        {
+          "bundle_revision_hash": "e26ea1e36251652bbecdd3199bcd178d67b5d8acbba6ebd123c9572e5da97167",
+          "file": "units/ANS.L01.S08.pdf",
+          "heading": "7. Создаём схему собственного стартапа",
+          "kind": "S",
+          "pages": 2,
+          "sha256": "29cc03deb1ff5bf120afaec3a0bdec599f550a53eeef908b40c0cf8403dda8f0",
+          "unit_id": "ANS.L01.S08"
+        },
+        {
+          "bundle_revision_hash": "3ad82e94e320a47d9c76edfa5c41cdc39741e5d881487959580d9e2108a90828",
+          "file": "units/ANS.L01.S09.pdf",
+          "heading": "8. Почему нельзя сразу «запустить 20 агентов»",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "0b26fe624320803eb2aee206fe830ec14b2de232da045753055ccd1cbe8b92b4",
+          "unit_id": "ANS.L01.S09"
+        },
+        {
+          "bundle_revision_hash": "25aaa184a9bfed8b7d25c39bceeebb913f20db8ca9fd67ff9727251c8b975d46",
+          "file": "units/ANS.L01.S10.pdf",
+          "heading": "9. Безопасность начинается уже в первом уроке",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "738e73cbdc0c7e9e6a9dd62f9fda1aa947dee35ea4f33f7b665482a46c790019",
+          "unit_id": "ANS.L01.S10"
+        },
+        {
+          "bundle_revision_hash": "b51a2cb1cfc43076ce56a8fd1ad175530d39542009c0e513b465e35fd9f4b81c",
+          "file": "units/ANS.L01.S11.pdf",
+          "heading": "10. Что у вас должно появиться в конце урока",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "afe17d83df91bc8660101be1df0cc225d329b384393e8979d743910bbc4f00de",
+          "unit_id": "ANS.L01.S11"
+        },
+        {
+          "bundle_revision_hash": "4e66b00f043a67ddd9647303314f0d459a925968fc0b06f16c4a8bb53511396f",
+          "file": "units/ANS.L01.S12.pdf",
+          "heading": "Короткий итог",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "7ce08be89d0fbcdf88eebafebf8000ccff85def940614e409c5cac4e8b9cc72b",
+          "unit_id": "ANS.L01.S12"
+        },
+        {
+          "bundle_revision_hash": "05764dc9094fa5ee45682af75e8fba75438cbf9a27e5113e0c712272deef8bff",
+          "file": "units/ANS.L01.S13.pdf",
+          "heading": "Примечание об источниках и степени подтверждения",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "e2212be959fed719a6ab4bac98d23c5cdc80b40a1273c43caa14115f68db8e41",
+          "unit_id": "ANS.L01.S13"
+        },
+        {
+          "bundle_revision_hash": "caf03cdb58d2056a8585f48c21403fe495a5b9b35935befde82be69138fa0e55",
+          "file": "units/ANS.L01.W00.pdf",
+          "heading": "Рабочая тетрадь: вход",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "b260f3136499a51a941b239ff7080546f8feae86e5792f75482969c0468da13e",
+          "unit_id": "ANS.L01.W00"
+        },
+        {
+          "bundle_revision_hash": "fb095930af4c9d1eb0b1a5daf7d82cd6d7dc1ce6bb3cf65a00087de5adcab503",
+          "file": "units/ANS.L01.W01.pdf",
+          "heading": "Задание 0. Предсказание до демонстрации (3 минуты)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "b7c1a48f3732c4af14108263b61520f7ca5d657cea4ec92d11ff0bfee1198eac",
+          "unit_id": "ANS.L01.W01"
+        },
+        {
+          "bundle_revision_hash": "fbfc5e43d750c0a78082aefef46e9751ea9dba4837efd450d0f148ca8bb39483",
+          "file": "units/ANS.L01.W02.pdf",
+          "heading": "Задание 1. Различаем деятельность, результат работы и пользу (5 минут)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "372ccbe4711ea0407470d7a2a00a340a435e482aafd544d8839771b790850070",
+          "unit_id": "ANS.L01.W02"
+        },
+        {
+          "bundle_revision_hash": "0ecaf298470cc740fc0edfa4b4d088071b5fdcd79e7e116b2ed909f068bf8540",
+          "file": "units/ANS.L01.W03.pdf",
+          "heading": "Задание 2. Формулируем гипотезу стартапа (7 минут)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "e8ca04d0516356f0af6d742d03370298488819938edc3e735a2d16a453faffe9",
+          "unit_id": "ANS.L01.W03"
+        },
+        {
+          "bundle_revision_hash": "5d4ff74733855e2b5831b06b76f0c492cd9d02ff9de58981e9c8c05f6d0f3cae",
+          "file": "units/ANS.L01.W04.pdf",
+          "heading": "Задание 3. Нарисуйте минимальный процесс (10 минут)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "2743b7985556484f38d79b387b8445923ec6c4c371f677ddd8b11a76626e148b",
+          "unit_id": "ANS.L01.W04"
+        },
+        {
+          "bundle_revision_hash": "925aaef3bbee95b396f736d4f142195e83c9772d0613c4d0503508899a96dbde",
+          "file": "units/ANS.L01.W05.pdf",
+          "heading": "Задание 4. Три показателя успеха (5 минут)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "c6317143257701396f5348b6a8d9294bbac58363083f7e213173d45680556f6b",
+          "unit_id": "ANS.L01.W05"
+        },
+        {
+          "bundle_revision_hash": "4e9fc0da44c032a201616883f27a3a0125af0233ae522d05f551a56e8af17443",
+          "file": "units/ANS.L01.W06.pdf",
+          "heading": "Задание 5. Критик ИИ (5 минут)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "5b658ad9e97d20a52081ab3493ad7a2391615bdb5f3f06e4439c4c23cabd53a9",
+          "unit_id": "ANS.L01.W06"
+        },
+        {
+          "bundle_revision_hash": "495fb991eb7fe0370db85fc9950caf3053ff3997019376301755279c378fa96b",
+          "file": "units/ANS.L01.W07.pdf",
+          "heading": "Задание 6. Защита своей схемы (5 минут)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "89360417f69b4480dc65bceeaa11289417f7926fb24741cdb5dbaba34d36db14",
+          "unit_id": "ANS.L01.W07"
+        },
+        {
+          "bundle_revision_hash": "3b81aeadc0beae7e53e629b11fa1efb48a0689f0151dda75b56fcdbdca188f27",
+          "file": "units/ANS.L01.W08.pdf",
+          "heading": "Домашнее задание",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "7dd066dec9bbc98e14424751e3f1400172db9f4512a5f1f5a585e05894a85879",
+          "unit_id": "ANS.L01.W08"
+        },
+        {
+          "bundle_revision_hash": "98fa3b4601942e0900705776435a61c9356ec7c23ef01488beca0c5876798d54",
+          "file": "units/ANS.L01.W09.pdf",
+          "heading": "Самопроверка",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "168138d9e804b78cf5e106ec9d54271073560758f9a98869498622fb65cb7f2e",
+          "unit_id": "ANS.L01.W09"
+        }
+      ]
+    },
+    {
+      "lesson_id": "ANS.L02",
+      "title": "Поиск проблемы, за решение которой платят",
+      "units": [
+        {
+          "bundle_revision_hash": "09261f736c67b3e55a2d5f5e490346463f31343ac389b3503f714c7465e0d605",
+          "file": "units/ANS.L02.S00.pdf",
+          "heading": "Паспорт урока",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "c1fba89ba052f1166e9313e751264921d64c272166b81056b2fffa87fc9d734f",
+          "unit_id": "ANS.L02.S00"
+        },
+        {
+          "bundle_revision_hash": "b10e3fc605c93634a6e5c42ceda6cf14704811b696e099551c2ac88888408cb8",
+          "file": "units/ANS.L02.S01.pdf",
+          "heading": "Чему вы научитесь",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "a1553686255cac3bdc862825cb6a69b590e974fc72992a1d3ead190556626776",
+          "unit_id": "ANS.L02.S01"
+        },
+        {
+          "bundle_revision_hash": "246f16c51d4cb21dccf0716f5ce5e2665a4c7bf11f736485845844bc489c69fc",
+          "file": "units/ANS.L02.S02.pdf",
+          "heading": "1. Сцена: «Все сказали, что идея прекрасная»",
+          "kind": "S",
+          "pages": 2,
+          "sha256": "6b2ed74706c7301d64ff51d07e1e6c7419082ed451783bea37811d4d203268fa",
+          "unit_id": "ANS.L02.S02"
+        },
+        {
+          "bundle_revision_hash": "49bef57501d81d92a68c240dc4de9955eceeed606ab4628b45e304b7bfa03dde",
+          "file": "units/ANS.L02.S03.pdf",
+          "heading": "2. Проблема — не то же самое, что решение",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "0ff20304a6d29d59b4245799fd4dd0018cf7a327cb7df9a8e3502f839695972f",
+          "unit_id": "ANS.L02.S03"
+        },
+        {
+          "bundle_revision_hash": "a22092dcf6b7544a16a52f0ea389c1bd986cf2eb9297116fc39f242a23d44f3d",
+          "file": "units/ANS.L02.S04.pdf",
+          "heading": "3. Кто именно должен стать клиентом?",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "b02df92d8c24a9787815d2fd858a69940e0659090cd5052c3a38a45dce3d4a85",
+          "unit_id": "ANS.L02.S04"
+        },
+        {
+          "bundle_revision_hash": "0fec3c1b3efb1d2dd89a2cf3e97df2b8aa3df8962b416ef21e7b3ef35820ab66",
+          "file": "units/ANS.L02.S05.pdf",
+          "heading": "4. Jobs To Be Done: «работа», ради которой люди пользуются продуктом",
+          "kind": "S",
+          "pages": 2,
+          "sha256": "bacf6fe9b25dbe42fcb8c5ebc6d5271cc3b4dc11b3744ffb4bfd4b6019d83a90",
+          "unit_id": "ANS.L02.S05"
+        },
+        {
+          "bundle_revision_hash": "d499ff3c2c35b955c614a59041051c91586aca4c006eda6fb12ea8609b9ca07e",
+          "file": "units/ANS.L02.S06.pdf",
+          "heading": "5. Как брать интервью и не навязывать ответ",
+          "kind": "S",
+          "pages": 2,
+          "sha256": "2604c1763c7412712e917d40e635b576dfeb75eb3840880de5065149f05cd75e",
+          "unit_id": "ANS.L02.S06"
+        },
+        {
+          "bundle_revision_hash": "6c6f5ea8fced835e28b705e231746394b0ce7b098bb9e6ba5444a62417903402",
+          "file": "units/ANS.L02.S07.pdf",
+          "heading": "6. Сценарий первых 15 минут",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "4a2b0476d3c484e827d7254dbc6adadb6f0ca35a7e004581ed48010ef6d9d5e5",
+          "unit_id": "ANS.L02.S07"
+        },
+        {
+          "bundle_revision_hash": "a5161b03e19fb30ce42e849d16bcf16975c486d68a027bd4e0610b8800beec82",
+          "file": "units/ANS.L02.S08.pdf",
+          "heading": "7. От рассказа к свидетельству: реестр, а не красивая история",
+          "kind": "S",
+          "pages": 2,
+          "sha256": "5baaf617a6a969539f91b048d91a312fb4f210cb8da8fe922175e664ae0e463c",
+          "unit_id": "ANS.L02.S08"
+        },
+        {
+          "bundle_revision_hash": "529d1e13cb02d4d3d0e897cedad5a964b29fd4f23c1df12bc01bdd605c9906fc",
+          "file": "units/ANS.L02.S09.pdf",
+          "heading": "8. Что ИИ делает хорошо, а чего делать не должен",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "d82c03f8f82bb9a523761744eb9c79966b022562c2574c9d3362601796d47893",
+          "unit_id": "ANS.L02.S09"
+        },
+        {
+          "bundle_revision_hash": "9fcc450adb0d3c91aef1ee238d08e321acc72569ec0a0324700065e0d83a4ca6",
+          "file": "units/ANS.L02.S10.pdf",
+          "heading": "9. Демонстрация: двенадцать несовпадающих историй",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "65cdb1f986d495148229974b78db28eb27f366014c9f535f99d2c7d8e2a8c79e",
+          "unit_id": "ANS.L02.S10"
+        },
+        {
+          "bundle_revision_hash": "ea5cfce2e0ca42bd62d92732ca969590c18766cc1cb1ea41f042b552d8c18f82",
+          "file": "units/ANS.L02.S11.pdf",
+          "heading": "10. Практика: готовим первые реальные интервью",
+          "kind": "S",
+          "pages": 2,
+          "sha256": "670de7cf1f6bdb2a47cbf837086169b81d5b89ecd5175c80b303989827ed31f5",
+          "unit_id": "ANS.L02.S11"
+        },
+        {
+          "bundle_revision_hash": "04878658424b031e1f40f6b41d46cd3ee773cf0687e1177b3d69b3e8cfb5da61",
+          "file": "units/ANS.L02.S12.pdf",
+          "heading": "11. Что делать после первых разговоров",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "381d762957ca83163b2ea342c3ac9a6cf41f9cc7fd61369b4fff02e1eb877d51",
+          "unit_id": "ANS.L02.S12"
+        },
+        {
+          "bundle_revision_hash": "75ca72a8b596b9d54ef944b99369139e9c5d13af4b1ce2fc9c43ca80946d7cc0",
+          "file": "units/ANS.L02.S13.pdf",
+          "heading": "12. Домашняя работа и созданные артефакты",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "a8d68b77e3b090569cbbba434b6e46cb283050ce1549a4f2fa23b16883b06184",
+          "unit_id": "ANS.L02.S13"
+        },
+        {
+          "bundle_revision_hash": "6172874c05d7658ae321629c90dc6259afe54b092192e7968477b3104a237a2f",
+          "file": "units/ANS.L02.S14.pdf",
+          "heading": "Короткий итог",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "11c90989b9b8b4d638dfa06fcf60e6e4300a61dcf8731c06d7d655f08eec5f7e",
+          "unit_id": "ANS.L02.S14"
+        },
+        {
+          "bundle_revision_hash": "5618ed56f82429db6389d4fb3b2724eb26740e4cecfbd2721ddf17d157e8682e",
+          "file": "units/ANS.L02.W00.pdf",
+          "heading": "Рабочая тетрадь: вход",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "6ba8b4a7b72f3999d4afaf775c2de622cc17073c6314aca4727c52fd3f4ed58a",
+          "unit_id": "ANS.L02.W00"
+        },
+        {
+          "bundle_revision_hash": "dd09dec6419ce4f195373a6da5cc25b63ce7dfbd80851003735584607bef4976",
+          "file": "units/ANS.L02.W01.pdf",
+          "heading": "0. Проверяем, что осталось от урока 01 (3 минуты)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "dd080fc2ad395b67295898e3166f2f9168e3872c0f664c5560d5afb73ea294e6",
+          "unit_id": "ANS.L02.W01"
+        },
+        {
+          "bundle_revision_hash": "54f63ea88146d376163ac5d564501fd331c98fab749c7466f360c5d895266c74",
+          "file": "units/ANS.L02.W02.pdf",
+          "heading": "1. Различаем проблему и решение (4 минуты)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "3fe957e7686fb93a4db4a578dbc22c041479a4f963a575865c9c5735dfbda0ef",
+          "unit_id": "ANS.L02.W02"
+        },
+        {
+          "bundle_revision_hash": "f7cd3ec5deb71958ee631e0225e5b7cd66a2eab1b8b129f33bdb67b9ae7b74dd",
+          "file": "units/ANS.L02.W03.pdf",
+          "heading": "2. Выбираем узкий профиль клиента — ICP (5 минут)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "f942a20595f4711f47de0c438c913a9e76fff7389f9ab0fd00cb92a171b3510f",
+          "unit_id": "ANS.L02.W03"
+        },
+        {
+          "bundle_revision_hash": "a3923c6f8917329315053684eab1938747c32a7fd11b9d5f5e460f356d969040",
+          "file": "units/ANS.L02.W04.pdf",
+          "heading": "3. JTBD: пока только рабочая гипотеза (5 минут)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "a3121e30f0f19b94d88fba9f31475342e68b582e45df94cd2539ad4ddfb79286",
+          "unit_id": "ANS.L02.W04"
+        },
+        {
+          "bundle_revision_hash": "9d0840429bb18d26b84795c26b0174906548a866292efe6adcb054256ff4b7d0",
+          "file": "units/ANS.L02.W05.pdf",
+          "heading": "4. Собеседование без «продажи в вопросе» (5 минут)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "d79e3314c26d4021ca3177008ec56defc1dd66a054cb83c55b9ad78316fa9380",
+          "unit_id": "ANS.L02.W05"
+        },
+        {
+          "bundle_revision_hash": "49bd780de198298367b1ae395b1397d308ef8744f3a68444a00a38298fceaa95",
+          "file": "units/ANS.L02.W06.pdf",
+          "heading": "5. Читаем учебные заметки до запуска ИИ (6 минут)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "d523a0799ee4c4566484e3b81470cbc68e7c8277da0a6aaa1aa446e136a721e6",
+          "unit_id": "ANS.L02.W06"
+        },
+        {
+          "bundle_revision_hash": "6bd1e858357ce58373c86f8b62cd98ed6f55203a5a20be30cb4d4c1b31afd27b",
+          "file": "units/ANS.L02.W07.pdf",
+          "heading": "6. ИИ помогает анализировать, но не создаёт доказательства (5 минут)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "eba06f4aa101628e357986ba7b194cc257dd5d63fa5ced0553369fbb0455eb8d",
+          "unit_id": "ANS.L02.W07"
+        },
+        {
+          "bundle_revision_hash": "eb40673b273c91b01e9d6d57f5ee06dcb0d1f398e393d573e5a000bec9397734",
+          "file": "units/ANS.L02.W08.pdf",
+          "heading": "7. Письмо-приглашение и план реальных разговоров (5 минут)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "9156956353724df5844c91efc88b0b9647ece2496a70122b580622783c2c7cf6",
+          "unit_id": "ANS.L02.W08"
+        },
+        {
+          "bundle_revision_hash": "4a1b8d8e27aba29a2b5a25e46ab5f84af5e2209bd0d9e1052f717bd41ae36ce1",
+          "file": "units/ANS.L02.W09.pdf",
+          "heading": "8. Текущее решение",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "8a9f50645fcf57269c8a77eb168be647e0d0148b43d7e523c152349cde010605",
+          "unit_id": "ANS.L02.W09"
+        },
+        {
+          "bundle_revision_hash": "3f2b3769320f43c551edcddec2991c5b076aa62e2d8020e7fbe0deb75af684c4",
+          "file": "units/ANS.L02.W10.pdf",
+          "heading": "Домашнее задание",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "4dfb69bfd00174b46eb9a87d2c8ad37dcd8ecf2a9450ffb35562a514441f1c4f",
+          "unit_id": "ANS.L02.W10"
+        },
+        {
+          "bundle_revision_hash": "dfa39e3a3ae32016beb3c5f588ee421f16b82cee0bc5bf32c2cb5d9862ba543d",
+          "file": "units/ANS.L02.W11.pdf",
+          "heading": "Самопроверка",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "895f033afda7322b873b8f64278a205a683eeac6b3cdcd68d68254aa3116b35c",
+          "unit_id": "ANS.L02.W11"
+        }
+      ]
+    },
+    {
+      "lesson_id": "ANS.L03",
+      "title": "Как проверить бизнес-идею до разработки продукта",
+      "units": [
+        {
+          "bundle_revision_hash": "c83d7651cd693f4790bf7d8ee9424bf15f4c127d350eeaffe8064d56cc08fcdf",
+          "file": "units/ANS.L03.S00.pdf",
+          "heading": "Паспорт урока",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "3cffa4709b7e829f6713b3c7977e78a833106d225bf2188ef96316aa4773df70",
+          "unit_id": "ANS.L03.S00"
+        },
+        {
+          "bundle_revision_hash": "378fc9f97c4c87e3aab3369ed988c73e1ff3c52149e3a4cb29540a35cbd06102",
+          "file": "units/ANS.L03.S01.pdf",
+          "heading": "Чему вы научитесь",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "5a3bc8e06e89570f8ad26a3838eb69d17dead4e8c7058c3b469c1453eafaf788",
+          "unit_id": "ANS.L03.S01"
+        },
+        {
+          "bundle_revision_hash": "f3082b6e5db3cb898d23b67258b7bef05b7ed2678b439af87757dfb18a7a6631",
+          "file": "units/ANS.L03.S02.pdf",
+          "heading": "1. Сцена: «Идея понравилась всем»",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "a0c761ec5e73413aec8df35f6efd0fa8674e21d534a7dd6795275017b59faba6",
+          "unit_id": "ANS.L03.S02"
+        },
+        {
+          "bundle_revision_hash": "21821c481f3aa053386e4fba048391c8c625fb14115c228d0945224ee74392b5",
+          "file": "units/ANS.L03.S03.pdf",
+          "heading": "2. Четыре ступени: от интереса к результату",
+          "kind": "S",
+          "pages": 2,
+          "sha256": "983f8984d48262fd3debed478633ea8dc23c5f3bf2c2d07ec1a1f10339e0dee6",
+          "unit_id": "ANS.L03.S03"
+        },
+        {
+          "bundle_revision_hash": "1184da41cb74d2c600ca73ac78267a4a253ed45e0a66e21868970c1c3d534ad5",
+          "file": "units/ANS.L03.S04.pdf",
+          "heading": "3. Вместо программы — проверяемый оффер",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "08221c60518c1d4a18a033303870a6483bd91dc0b32db4b9b7323fdd9dca0db7",
+          "unit_id": "ANS.L03.S04"
+        },
+        {
+          "bundle_revision_hash": "9271946b33141a35692b4f7a9645b20a4da7db2b7df83fd1f1978f35f63ee9a2",
+          "file": "units/ANS.L03.S05.pdf",
+          "heading": "4. Три пути к MVP без большой разработки",
+          "kind": "S",
+          "pages": 2,
+          "sha256": "1219dc7210f0819def43b8438ce3304240c8ed0d0b0540112d56692956c2f0fc",
+          "unit_id": "ANS.L03.S05"
+        },
+        {
+          "bundle_revision_hash": "9762dd57e980cf1a3b6ad8de068d058fc9782faa80785a589c35f5606d3fef79",
+          "file": "units/ANS.L03.S06.pdf",
+          "heading": "5. Что такое «продать пилот», а не «продать надежду»",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "d825e3b47f46180a397e31fd39f915d36cf1b026add21f5fde6f1ff99e643105",
+          "unit_id": "ANS.L03.S06"
+        },
+        {
+          "bundle_revision_hash": "60574756c039782cf22e0c6ac97a81a72662ac1ecc66d8324c5118ae6ed62802",
+          "file": "units/ANS.L03.S07.pdf",
+          "heading": "6. Как проверять готовность платить",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "7c5b4045dc4573fd4b5fcd975061e742e58d7570a742508c3328099f09b2679a",
+          "unit_id": "ANS.L03.S07"
+        },
+        {
+          "bundle_revision_hash": "c6d9f429c45a21864c72e5e2138e8837abef8dd0f47047753535774e6b6408f7",
+          "file": "units/ANS.L03.S08.pdf",
+          "heading": "7. Первая экономика: прибыль — не только «цена минус токены»",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "2cd6875bfeba8f69c6d2fd7ae4e52301e0a255be66989a7e4bb4bf8ba095b956",
+          "unit_id": "ANS.L03.S08"
+        },
+        {
+          "bundle_revision_hash": "c7751e2f25d03dc833f712d639713aace741333233839082ae4a99e06514be15",
+          "file": "units/ANS.L03.S09.pdf",
+          "heading": "8. Как применять ИИ на стадии проверки идеи",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "cfc2d09745100e3d720ae406a17cfbd7863d31656620419fe390c9e4e4ece1ae",
+          "unit_id": "ANS.L03.S09"
+        },
+        {
+          "bundle_revision_hash": "9528482e323a1461f6a8cfda2ed8611cc4b1282697e4783051f95620a744911d",
+          "file": "units/ANS.L03.S10.pdf",
+          "heading": "9. Демонстрационный разбор: 12 ответов на предложение",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "31af45f27aba8673221de088bfe84a265c467103813db3b9e4edd53367d0b292",
+          "unit_id": "ANS.L03.S10"
+        },
+        {
+          "bundle_revision_hash": "4cc90bc50f0ec6cbbc59603269462ee53d8b718b1fcb147ad4104fba42002438",
+          "file": "units/ANS.L03.S11.pdf",
+          "heading": "10. Практика: соберите пилот, не создавая SaaS",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "46421be8861c10b08951354e3e00200aff17334ebc668dc6137f1c6f593a0782",
+          "unit_id": "ANS.L03.S11"
+        },
+        {
+          "bundle_revision_hash": "e7d6169001466b1426fedd81cc227d0111313a19f49a0b9b2c3e4dd442363c04",
+          "file": "units/ANS.L03.S12.pdf",
+          "heading": "11. Проверьте свой результат",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "9a5ff116873b0833cbb729ecfbe868cfc662084949bafe6894137348a89d9ae8",
+          "unit_id": "ANS.L03.S12"
+        },
+        {
+          "bundle_revision_hash": "d0494f29b9f5ecdf4052b922a5013feb311f0c97483981144f914299cf68e9f2",
+          "file": "units/ANS.L03.S13.pdf",
+          "heading": "12. Риски, данные и честная коммуникация",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "591bb79444b25afabb62d051cc1aef8ae114518a74352e69ae7d8b4e5ef722d7",
+          "unit_id": "ANS.L03.S13"
+        },
+        {
+          "bundle_revision_hash": "8baf5ead0a7b23f3fd8d03050826f8aaa3598cf1bfd55b2ff30f27d8b1e615bc",
+          "file": "units/ANS.L03.S14.pdf",
+          "heading": "13. Самостоятельная работа",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "77fcc6d0c7adc9d768ba21a76aaec9521b4a999c0735ba8666640d814428d814",
+          "unit_id": "ANS.L03.S14"
+        },
+        {
+          "bundle_revision_hash": "765439362c0ac43794041859e07dd480b0524a59345b8230f079ed43dbd11a71",
+          "file": "units/ANS.L03.S15.pdf",
+          "heading": "14. Что остаётся в папке стартапа",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "fd2bd64c0830d89a861f6735ee3cf3cfab531f2064466af657d897e326ae69ab",
+          "unit_id": "ANS.L03.S15"
+        },
+        {
+          "bundle_revision_hash": "aecce98a13321b1d914de57f4f3938142be0fefd17da5e275e1ea6d0d15fca52",
+          "file": "units/ANS.L03.W00.pdf",
+          "heading": "Рабочая тетрадь: вход",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "5d1df4a0917c69382279c7ef0b74f3bb5b112cbcb9a001a2cece4af08f99faa6",
+          "unit_id": "ANS.L03.W00"
+        },
+        {
+          "bundle_revision_hash": "030917e257cb8361601a856d7ace2d8ba212d45f8c1bb94bd2170d4f65ff20f1",
+          "file": "units/ANS.L03.W01.pdf",
+          "heading": "Задание 1. Назовите силу сигнала (4 минуты)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "9e4afc5cd51d9f3b00a81faf448f00b7d7f4608d74a07259541fe783726ab101",
+          "unit_id": "ANS.L03.W01"
+        },
+        {
+          "bundle_revision_hash": "05b1085e9204daf177794b965ad285dde0283a4938a639164e33cca38c907d96",
+          "file": "units/ANS.L03.W02.pdf",
+          "heading": "Задание 2. Сформулируйте минимальный оффер (5 минут)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "a1597c40b2473f03138d10ea36232fb61a66a5c9463c30475873e693d6bbe0f6",
+          "unit_id": "ANS.L03.W02"
+        },
+        {
+          "bundle_revision_hash": "3c8d82ab148ac1839cfa5e9fe9ad4bf67945bcce1fb6f99ce5e9075dc45825f6",
+          "file": "units/ANS.L03.W03.pdf",
+          "heading": "Задание 3. Соберите «ручной» пилот (5 минут)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "49b3132e7479feb5553b084b5fc5df2eaf776f220ea9a6b560fed90df55e6465",
+          "unit_id": "ANS.L03.W03"
+        },
+        {
+          "bundle_revision_hash": "5f523cad11d9e49c2c026d7c5cad2531cef002490d00e0a7b8b5333bf2fb6967",
+          "file": "units/ANS.L03.W04.pdf",
+          "heading": "Задание 4. Разберите коммерческие ответы вручную (7 минут)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "45afe000e9a827e3dd132bb0c1fe88e49ddc36351d7a4f1ed7b4ed76e96f04fa",
+          "unit_id": "ANS.L03.W04"
+        },
+        {
+          "bundle_revision_hash": "43896de51238b5aebd614d6b8202214616a947a2b30c8ef8d5180537cb69f11d",
+          "file": "units/ANS.L03.W05.pdf",
+          "heading": "Задание 5. Проверьте ответ ИИ (4 минуты)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "0351c5b6d748c17134768dd5ce10f6cf50694f20f5b3e496e53268590f856fa2",
+          "unit_id": "ANS.L03.W05"
+        },
+        {
+          "bundle_revision_hash": "bec2b2bba5914fbd98de926d6d0626232d114cb70207209f09cf9117dc0e8145",
+          "file": "units/ANS.L03.W06.pdf",
+          "heading": "Задание 6. Рассчитайте пилот (4 минуты)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "ffd23f31ff6a35b7e5c50512dfd9d2a5eba42b99791a250d540dc2a22d1108b6",
+          "unit_id": "ANS.L03.W06"
+        },
+        {
+          "bundle_revision_hash": "aa0aca1e7049da0bf6325e43ea9018ade2e3168e1721adef319b5172ca436b9b",
+          "file": "units/ANS.L03.W07.pdf",
+          "heading": "Задание 7. Предварительно объявите критерий решения (3 минуты)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "d401fb6aabb6a57cb1dd19f0c1ac2bf1469cb6595dea9daa4a0c84ee73175986",
+          "unit_id": "ANS.L03.W07"
+        },
+        {
+          "bundle_revision_hash": "a003b97743620452d9fad81fcdeb5c277433dbba2486d290a271238f614c6205",
+          "file": "units/ANS.L03.W08.pdf",
+          "heading": "Задание 8. Примите честное решение (3 минуты)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "04913b9eda6afc6962ab3fd037b32e437fab18d2834a4362d340494972b8ef48",
+          "unit_id": "ANS.L03.W08"
+        },
+        {
+          "bundle_revision_hash": "167833833ec6f950264b75a149954918c515eccee139a3ab8fd15ebb26ccfc11",
+          "file": "units/ANS.L03.W09.pdf",
+          "heading": "Домашняя работа (30–45 минут активных действий)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "29d97cffacd44f85cc69adb5dc4cf594b27f2a0f36a605c299d97ec2ef4a509b",
+          "unit_id": "ANS.L03.W09"
+        },
+        {
+          "bundle_revision_hash": "713eebcde0763832905df9047d773f9ad4f10f83f5b962dc4eca9cfe59b0078e",
+          "file": "units/ANS.L03.W10.pdf",
+          "heading": "Самооценка по окончании",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "7897d05c74f1ee10ba72268584654a9872920644f49d31a36544ac8577055af1",
+          "unit_id": "ANS.L03.W10"
+        }
+      ]
+    },
+    {
+      "lesson_id": "ANS.L04",
+      "title": "Создаём собственную команду ИИ-исполнителей",
+      "units": [
+        {
+          "bundle_revision_hash": "d8c02c1ae3c06064bea9baa75c34233379e0f2a72996c68deee6e037e3506e7f",
+          "file": "units/ANS.L04.S00.pdf",
+          "heading": "Паспорт урока",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "7893cedc6d9f5ba5a2eda8de961ab57129d1febf40d3048d4a1baba70d27c147",
+          "unit_id": "ANS.L04.S00"
+        },
+        {
+          "bundle_revision_hash": "c2373afa304d83d2f14113d8cd4628e8f675b6d7043ceb94abe985f245f79ef5",
+          "file": "units/ANS.L04.S01.pdf",
+          "heading": "Чему вы научитесь",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "2e1181ddf62a70cad4d34f8dd8fb97c46d040f1e3e9b6342256788220ab9e176",
+          "unit_id": "ANS.L04.S01"
+        },
+        {
+          "bundle_revision_hash": "ebaa1e92d2c028014a710c2f197b4ea3c53245eb7cfddbd11332db0e7a265663",
+          "file": "units/ANS.L04.S02.pdf",
+          "heading": "1. Сцена: «У нас будет шесть виртуальных сотрудников!»",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "5d1a767b218bfb9433d948bdefd8a70a05b933e904a260f7b60bdf8aaea008dd",
+          "unit_id": "ANS.L04.S02"
+        },
+        {
+          "bundle_revision_hash": "3f886e188f15a641f6d56c3f4ad5635c9741630365d620c3ff87251e332663c9",
+          "file": "units/ANS.L04.S03.pdf",
+          "heading": "2. Пять разных вещей, которые часто называют «ИИ»",
+          "kind": "S",
+          "pages": 2,
+          "sha256": "32538abd8678b018ae2e64b0f6b2674799eeca2c00d719dbf1ebebb100a92134",
+          "unit_id": "ANS.L04.S03"
+        },
+        {
+          "bundle_revision_hash": "ee3a8af8174d477ee5f72a8b76569268ec5eaa2e2d3da8f82e61f19b877e852a",
+          "file": "units/ANS.L04.S04.pdf",
+          "heading": "3. Что может означать «команда из одного человека»",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "e544a8f4c1b3e1236a6b0fbafd562722b5acf5fc626c59a8e783444da82b24f9",
+          "unit_id": "ANS.L04.S04"
+        },
+        {
+          "bundle_revision_hash": "1f9e8e777bf2f3504101e9b1c383840163c18eb57a2ed88a374abca8fd7b2a71",
+          "file": "units/ANS.L04.S05.pdf",
+          "heading": "4. «Контракт задачи»: как нанять одного агента на работу",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "d90755eb19aa4b74a2702bdb45676696aee6e0cc4a41ad7f801750ad76c0549a",
+          "unit_id": "ANS.L04.S05"
+        },
+        {
+          "bundle_revision_hash": "9782b5d4efc5d3350fcefba46f63a02999fb42b1be651c18caee0220d5486ead",
+          "file": "units/ANS.L04.S06.pdf",
+          "heading": "5. Ограничения полномочий: «читать» не значит «изменять»",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "19178d3be2babd04bd4f679d97291c85b6795302536a16472e5b4d4865a88273",
+          "unit_id": "ANS.L04.S06"
+        },
+        {
+          "bundle_revision_hash": "f150b827e2d4bd26d9d20330e5dcb38ba987b5e5a7ec8c164d3e6661b141b1da",
+          "file": "units/ANS.L04.S07.pdf",
+          "heading": "6. Демонстрация: первый исполнитель за 20 минут",
+          "kind": "S",
+          "pages": 2,
+          "sha256": "10fa3a21295501dfc80c833cd84e1254ffdf81b7eb63c11381baa075a592d393",
+          "unit_id": "ANS.L04.S07"
+        },
+        {
+          "bundle_revision_hash": "771dbeb67dcc8e4c5e1c40bdd4c7d8424bd9dd590fb0e9b11a54be944eeb086a",
+          "file": "units/ANS.L04.S08.pdf",
+          "heading": "7. Почему нужен журнал, даже если команда маленькая",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "3e7746ba27e47746cdaaec83c1193d3ba77bc5397d5b5097469acc29343b69f1",
+          "unit_id": "ANS.L04.S08"
+        },
+        {
+          "bundle_revision_hash": "17b9183ed56185a2c4990f487de5da02269f17bbc3fb3dc97b715674be8b5bca",
+          "file": "units/ANS.L04.S09.pdf",
+          "heading": "8. Команда агентов: когда нужен второй исполнитель",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "f2c9b081a0a234f75566e4d3ba253b7aff473cb19b24e952f16cb5bb29cbadcc",
+          "unit_id": "ANS.L04.S09"
+        },
+        {
+          "bundle_revision_hash": "70988b10a8e6af01e623738e29be9096d70fd198242f34460a51a01514b19d34",
+          "file": "units/ANS.L04.S10.pdf",
+          "heading": "9. Техническая вставка для желающих программировать",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "cc92b735561aea3fd3c7f849eaab9e773b0e9cde663f3ea1aeb52e036cb7aad9",
+          "unit_id": "ANS.L04.S10"
+        },
+        {
+          "bundle_revision_hash": "9ce2af94a86d14751e54bb3f3833207aba9cb4fc1eefd3e4bce8c0fb5660ad00",
+          "file": "units/ANS.L04.S11.pdf",
+          "heading": "10. Практика: оформите своего первого исполнителя (35 минут)",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "21f0f8fd4cc9a1afa73ba34b9af52a9a6ccdd06fcfb37e686863a8ce8d6eca12",
+          "unit_id": "ANS.L04.S11"
+        },
+        {
+          "bundle_revision_hash": "1001a1a138dd65522731413ca692ffecc85e68a2c04362610352806bc9236886",
+          "file": "units/ANS.L04.S12.pdf",
+          "heading": "11. Как выбрать инструменты без бессмысленной гонки моделей",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "396914c2d713ae9149a39cd566dcd20595641ea16ad3554d85b4b80dee49b62d",
+          "unit_id": "ANS.L04.S12"
+        },
+        {
+          "bundle_revision_hash": "ffccba3b70d0c590d0b674f958f58dee64c40baf3906aadca71f24d8296dce7b",
+          "file": "units/ANS.L04.S13.pdf",
+          "heading": "12. Типичные ошибки",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "ee909971cbf8ff0d89434cf6f5798caafbe82dcc8ec6f616499db8f10cc89861",
+          "unit_id": "ANS.L04.S13"
+        },
+        {
+          "bundle_revision_hash": "6b2718a9264e900f1996a1c245030a88420a4aae1268a6b3e8e3c252f1cb6ec6",
+          "file": "units/ANS.L04.S14.pdf",
+          "heading": "13. Самостоятельная работа (30–45 минут)",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "68dfff151b57e943a15b6489eb3d75e03353fb7a979b5be66578db0624010077",
+          "unit_id": "ANS.L04.S14"
+        },
+        {
+          "bundle_revision_hash": "5263c1547e84f0881134bb95117efec223f46d0d565e2d4e9b97845d3d57f709",
+          "file": "units/ANS.L04.S15.pdf",
+          "heading": "14. Артефакты сквозного стартапа",
+          "kind": "S",
+          "pages": 1,
+          "sha256": "6654e249c829b64b4aded9204583e68c76fcc3a9173a8160c77e27ea0bdb9e0c",
+          "unit_id": "ANS.L04.S15"
+        },
+        {
+          "bundle_revision_hash": "5953470a7732832b5e8aeac66c4fa0f77845d9d1f9244abb012173a726295c91",
+          "file": "units/ANS.L04.W00.pdf",
+          "heading": "Рабочая тетрадь: вход",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "9b000dda115dfd9702ec9771e9cb192ac67654ec172b63235176c2e3aafb9c3c",
+          "unit_id": "ANS.L04.W00"
+        },
+        {
+          "bundle_revision_hash": "465956972de20a3f76b3c085bf5517df7f62310542425e695d171c8143a26ec6",
+          "file": "units/ANS.L04.W01.pdf",
+          "heading": "Вход в упражнение",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "0cdee636dbc530bc0ff59426e11905a7314a6ac87df86086e3bbdffbc4efdc7e",
+          "unit_id": "ANS.L04.W01"
+        },
+        {
+          "bundle_revision_hash": "96d04b63097e6ca2243afbaf3b7560a7f7381a976e2684adcf3b632eac8a96b3",
+          "file": "units/ANS.L04.W02.pdf",
+          "heading": "0. Запишите прогноз (до объяснения)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "d1b8965450b3f51569b16cf00996de41d93a25fd9317130d616acf5e5a4e6135",
+          "unit_id": "ANS.L04.W02"
+        },
+        {
+          "bundle_revision_hash": "5d933bc830b04f8e24743ab245343caf7f1b8ffc9dadd2b861535e0f47802ecb",
+          "file": "units/ANS.L04.W03.pdf",
+          "heading": "Задание 1 (4 минуты). Опишите работу, не должность",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "ba7f8076947d2116a11dfdf54223d855148aeec548420911a5aaf12391bbc80b",
+          "unit_id": "ANS.L04.W03"
+        },
+        {
+          "bundle_revision_hash": "011f55ae1b61d80355e39e9c18d74c37beeb90f782a9d8d4a2269bc681367e8d",
+          "file": "units/ANS.L04.W04.pdf",
+          "heading": "Задание 2 (4 минуты). Паспорт первого исполнителя",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "be220a561530d12295455bfe1572145b4e70c5c0ac20df1ec715454841b6f92b",
+          "unit_id": "ANS.L04.W04"
+        },
+        {
+          "bundle_revision_hash": "c21ed2897d39745b994d6b66d6f108673c778902e34957042315f49bfe1e4ba7",
+          "file": "units/ANS.L04.W05.pdf",
+          "heading": "Задание 3 (5 минут). Контракт одной задачи",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "5033c90c13e76f47050d831d3bbbb8e771069fc0806413d7b121e9c3679447aa",
+          "unit_id": "ANS.L04.W05"
+        },
+        {
+          "bundle_revision_hash": "e07f8b5c5de393052bcc27e6300d6d082c67a2cc91695099ae177c64c06eba51",
+          "file": "units/ANS.L04.W06.pdf",
+          "heading": "Задание 4 (4 минуты). Карта полномочий",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "013a38838ef6113e099291729b6fe53952d4a8afd5920194bbec8fb98139b44f",
+          "unit_id": "ANS.L04.W06"
+        },
+        {
+          "bundle_revision_hash": "6dc409713146a34fddbf510084ea602ccfaf9b3e41b0a5bca9681dc1f1ba4663",
+          "file": "units/ANS.L04.W07.pdf",
+          "heading": "Задание 5 (7 минут). Первый контролируемый прогон",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "25cb745a04308424d2f64ea97a93050b1c857c7026ea7fec745fca0a8ed74345",
+          "unit_id": "ANS.L04.W07"
+        },
+        {
+          "bundle_revision_hash": "780831bad431652561781a74ff5305c159b2dea34588df37375b4071e84454ae",
+          "file": "units/ANS.L04.W08.pdf",
+          "heading": "Задание 6 (4 минуты). Проверка от источника",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "58a9580772e6a7704ed2a3cf67a2cf9dd2c065214dbc7e328681277497ab1ef1",
+          "unit_id": "ANS.L04.W08"
+        },
+        {
+          "bundle_revision_hash": "491a1fa697d08f1eb165d91d9539d2ff486bcd8e01f17cce841bbaaf982e0c98",
+          "file": "units/ANS.L04.W09.pdf",
+          "heading": "Задание 7 (4 минуты). Инструкции, спрятанные в данных",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "1bebcc32bdd5ace6424cf4d406cbf83cd5e62429686735d67a502c7b935e2166",
+          "unit_id": "ANS.L04.W09"
+        },
+        {
+          "bundle_revision_hash": "2169231eae421d3918d2b3b5e305effb458cb77913cd1f62a66b488e0f8e9ad5",
+          "file": "units/ANS.L04.W10.pdf",
+          "heading": "Задание 8 (3 минуты). Решение о приёмке",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "3cd98a81458ed07831fc7626eaae1d06a4c548529957775a0213750e2d58cb0a",
+          "unit_id": "ANS.L04.W10"
+        },
+        {
+          "bundle_revision_hash": "ef9ad480a446589206336244201f70046db52dc01453c910b00ccaa8e841ec94",
+          "file": "units/ANS.L04.W11.pdf",
+          "heading": "Самостоятельная работа (30–45 минут)",
+          "kind": "W",
+          "pages": 1,
+          "sha256": "cdb26ab5874589445af7a8f26c55c75a4a87c23bd88ad25fafecb270660b4eaf",
+          "unit_id": "ANS.L04.W11"
+        }
+      ]
+    }
+  ],
+  "public_manifest_digest": "b9e9ffed3d516c4c501ca5af01090bd767e0caeffd0e2f337a9f2b3ad3bca462",
+  "release_id": "r0001",
+  "renderer": "WeasyPrint 66.0",
+  "schema_version": "1.0.0",
+  "source_commit_sha": "6d5747a7e5643114d09816ccaf9ee30b51d7d79b"
+}

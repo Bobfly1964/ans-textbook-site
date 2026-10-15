@@ -1,0 +1,120 @@
+/* AI-Native Startup web textbook — reader UI layer on top of Material for MkDocs (pinned). */
+@font-face { font-family: "PT Serif"; src: url("fonts/PTSerif-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "PT Serif"; src: url("fonts/PTSerif-Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "PT Serif"; src: url("fonts/PTSerif-Italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "PT Serif"; src: url("fonts/PTSerif-BoldItalic.woff2") format("woff2"); font-weight: 700; font-style: italic; font-display: swap; }
+@font-face { font-family: "PT Sans"; src: url("fonts/PTSans-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "PT Sans"; src: url("fonts/PTSans-Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "PT Sans"; src: url("fonts/PTSans-Italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "PT Mono"; src: url("fonts/PTMono-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+
+:root {
+  --md-text-font: "PT Sans";
+  --md-code-font: "PT Mono";
+  --ans-accent: #5b3a9e;  /* ARISTOTEL deep purple, darkened for AA contrast with white text */
+  --ans-warn-bg: #fff4d6;
+  --ans-warn-fg: #5c4400;
+  --ans-ok: #1d6b3a;
+  --ans-muted: #5f6b76;
+  --ans-line: #d6dde3;
+}
+[data-md-color-scheme="slate"] {
+  --ans-accent: #b39ddb;
+  --ans-warn-bg: #3b3220;
+  --ans-warn-fg: #f3e2b3;
+  --ans-muted: #a4b0bb;
+  --ans-line: #3a4550;
+}
+
+.md-typeset { font-family: "PT Serif", "DejaVu Serif", Georgia, serif; font-size: .86rem; line-height: 1.65; }
+.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-nav, .md-header, .ans-ui { font-family: "PT Sans", "DejaVu Sans", system-ui, sans-serif; }
+.md-typeset code, .md-typeset pre { font-family: "PT Mono", "DejaVu Sans Mono", monospace; }
+.md-typeset img { max-width: 100%; height: auto; }
+.md-typeset pre > code { white-space: pre; }
+
+/* status banner (UI-03): visible, does not cover content */
+.md-banner { background: #2e2541; color: #fff; }  /* ARISTOTEL: dark status banner, as in the reference textbook */
+.md-banner a, .md-banner strong, .md-banner code { color: #fff; }
+.md-banner a { text-decoration: underline; }
+.md-banner code { background: rgba(255,255,255,.14); }
+/* release selector hidden (old releases: permanent URLs, «Выходные данные», /r/); notice about a newer release stays */
+.md-header__topic .md-version, .md-version { display: none; }
+.ans-footer__brand { margin-bottom: .2rem; }
+[data-md-color-scheme="slate"] .ans-btn--primary, [data-md-color-scheme="slate"] .ans-btn:hover,
+[data-md-color-scheme="slate"] .ans-btn:focus-visible { color: #1d1530; }
+.ans-status-banner { font-family: "PT Sans", sans-serif; font-size: .78rem; padding: .1rem 0; }
+
+/* lesson card (UI-04/05) */
+.ans-lesson-card { border: 1px solid var(--ans-line); border-radius: 6px; padding: .8rem 1rem; margin: 0 0 1.4rem; font-family: "PT Sans", sans-serif; font-size: .78rem; }
+.ans-lesson-card dl { display: grid; grid-template-columns: minmax(0, max-content) minmax(0, 1fr); gap: .15rem .9rem; margin: 0 0 .6rem; }
+.ans-lesson-card dt { color: var(--ans-muted); }
+.ans-lesson-card dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+@media (max-width: 36em) { .ans-lesson-card dl { grid-template-columns: minmax(0, 1fr); } .ans-lesson-card dt { margin-top: .3rem; } }
+.ans-chip { display: inline-block; padding: .05rem .45rem; border-radius: 999px; border: 1px solid currentColor; font-size: .7rem; margin: 0 .3rem .2rem 0; max-width: 100%; }
+.ans-chip--warn { color: #8a5a00; }
+.ans-chip--info { color: var(--ans-accent); }
+[data-md-color-scheme="slate"] .ans-chip--warn { color: #f0c36a; }
+.ans-actions { display: flex; flex-wrap: wrap; gap: .4rem; }
+.ans-btn, .md-typeset .ans-btn { display: inline-flex; align-items: center; gap: .3rem; min-height: 2.2rem; padding: .3rem .75rem; border-radius: 5px; border: 1px solid var(--ans-accent); color: var(--ans-accent); background: transparent; font: 600 .75rem/1.2 "PT Sans", sans-serif; cursor: pointer; text-decoration: none; }
+.ans-btn:hover, .ans-btn:focus-visible { background: var(--ans-accent); color: #fff; }
+.ans-btn--primary { background: var(--ans-accent); color: #fff; }
+.ans-btn[aria-disabled="true"] { opacity: .55; cursor: not-allowed; }
+:focus-visible { outline: 3px solid #f2a900 !important; outline-offset: 2px; }
+
+/* per-unit toolbar injected by ans.js */
+.ans-unit-tools { display: flex; flex-wrap: wrap; gap: .3rem; margin: -.4rem 0 .8rem; font-family: "PT Sans", sans-serif; }
+.ans-unit-tools .ans-btn { min-height: 1.9rem; font-size: .68rem; padding: .15rem .55rem; border-color: var(--ans-line); color: var(--ans-muted); }
+.ans-unit-tools .ans-btn:hover, .ans-unit-tools .ans-btn:focus-visible { background: var(--ans-accent); border-color: var(--ans-accent); color: #fff; }
+.ans-unit-id { font: .66rem "PT Mono", monospace; color: var(--ans-muted); align-self: center; }
+.ans-review-badge { font: .66rem "PT Sans", sans-serif; color: var(--ans-ok); align-self: center; }
+.ans-selection-pop { position: absolute; z-index: 30; }
+
+/* review dialog (S2 PoC) */
+dialog.ans-dialog { max-width: min(40rem, 94vw); width: 100%; border: 1px solid var(--ans-line); border-radius: 8px; padding: 0; font-family: "PT Sans", sans-serif; color: var(--md-default-fg-color); background: var(--md-default-bg-color); }
+dialog.ans-dialog::backdrop { background: rgba(0,0,0,.35); }
+.ans-dialog header { padding: .8rem 1rem; border-bottom: 1px solid var(--ans-line); display: flex; justify-content: space-between; align-items: center; }
+.ans-dialog header h2 { margin: 0; font-size: 1rem; }
+.ans-dialog form { padding: .8rem 1rem 1rem; display: grid; gap: .6rem; font-size: .8rem; }
+.ans-dialog label { display: grid; gap: .2rem; font-weight: 600; }
+.ans-dialog textarea, .ans-dialog select, .ans-dialog input { font: .8rem/1.4 "PT Sans", sans-serif; padding: .4rem; border: 1px solid var(--ans-line); border-radius: 4px; background: transparent; color: inherit; width: 100%; box-sizing: border-box; }
+.ans-dialog .ans-context { display: grid; grid-template-columns: max-content 1fr; gap: .1rem .8rem; font-size: .72rem; background: rgba(127,127,127,.08); padding: .5rem .7rem; border-radius: 4px; word-break: break-all; }
+.ans-dialog .ans-context dt { color: var(--ans-muted); }
+.ans-dialog .ans-context dd { margin: 0; font-family: "PT Mono", monospace; }
+.ans-dialog blockquote { margin: 0; padding: .4rem .6rem; border-left: 3px solid var(--ans-accent); background: rgba(91,58,158,.06); font-family: "PT Serif", serif; }
+.ans-row { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; }
+.ans-msg { padding: .5rem .7rem; border-radius: 4px; font-size: .78rem; }
+.ans-msg--ok { background: #e3f4e8; color: #11431f; }
+.ans-msg--err { background: #fde5e3; color: #6d140c; }
+.ans-msg--info { background: rgba(31,95,139,.08); }
+@media (max-width: 30em) { .ans-row { grid-template-columns: 1fr; } }
+
+/* course plan (UI-02): future lessons never look ready */
+.ans-plan { list-style: none; padding: 0 !important; margin: 0 !important; display: grid; gap: .4rem; }
+.ans-plan li { margin: 0 !important; padding: .55rem .8rem; border-radius: 6px; border: 1px solid var(--ans-line); font-family: "PT Sans", sans-serif; }
+.ans-plan li.is-ready { border-left: 4px solid var(--ans-accent); }
+.ans-plan li.is-planned { border-style: dashed; color: var(--ans-muted); background: repeating-linear-gradient(135deg, transparent 0 8px, rgba(127,127,127,.05) 8px 16px); }
+.ans-plan .ans-plan-num { font-weight: 700; margin-right: .4rem; }
+
+/* placeholders for not-yet-approved assets */
+.ans-withheld { border: 1px dashed #b07a00; padding: .6rem .8rem; border-radius: 6px; font-family: "PT Sans", sans-serif; font-size: .78rem; color: var(--ans-warn-fg); background: var(--ans-warn-bg); }
+
+/* PDF composer */
+.ans-pdf { font-family: "PT Sans", sans-serif; }
+.ans-pdf fieldset { border: 1px solid var(--ans-line); border-radius: 6px; margin: 0 0 .8rem; padding: .5rem .8rem; }
+.ans-pdf legend { font-weight: 700; padding: 0 .3rem; }
+.ans-pdf .ans-tree ul { list-style: none; margin: .2rem 0 .4rem 1.2rem !important; padding: 0; }
+.ans-pdf .ans-tree li { margin: .1rem 0 !important; }
+.ans-pdf label { cursor: pointer; }
+.ans-pdf .ans-pages { color: var(--ans-muted); font-size: .7rem; }
+.ans-pdf ol.ans-order { margin: .3rem 0 !important; padding-left: 1.4rem; }
+.ans-pdf ol.ans-order li { display: flex; gap: .4rem; align-items: center; margin: .15rem 0 !important; }
+.ans-pdf ol.ans-order li span { flex: 1; }
+.ans-pdf progress { width: 100%; }
+.ans-pdf .ans-log { font: .72rem/1.4 "PT Mono", monospace; white-space: pre-wrap; background: rgba(127,127,127,.08); padding: .5rem; border-radius: 4px; max-height: 14rem; overflow: auto; }
+
+@media print {
+  .md-header, .md-banner, .md-sidebar, .md-footer, .ans-unit-tools, .ans-actions, .md-source-file { display: none !important; }
+  .md-typeset { font-size: 11pt; }
+  .md-typeset a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 9pt; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }

@@ -1,0 +1,1974 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Версионируемый веб-учебник: один основатель, команда ИИ-агентов">
+      
+      
+      
+        <link rel="canonical" href="https://startup.stemschool.online/r/r0001/practice/L02/">
+      
+      
+        <link rel="prev" href="../L01/prompts/">
+      
+      
+        <link rel="next" href="prompts/">
+      
+      
+      <link rel="icon" href="../../assets/ans/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Рабочая тетрадь - AI-Native Startup</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/ans/ans.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  
+  
+  <meta name="ans-course" content="ANS">
+  <meta name="ans-release" content="r0001">
+  <meta name="ans-commit" content="6d5747a7e5643114d09816ccaf9ee30b51d7d79b">
+  
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' ; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <script>window.ANS = {"course_id": "ANS", "feedback_api": "/api/v1", "feedback_mode": "github-prefill", "feedback_origin": "", "github_repo": "Bobfly1964/ans-textbook", "license_label": "\u0442\u0435\u043a\u0441\u0442 \u0438 \u0438\u043b\u043b\u044e\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u2014 CC BY-NC-SA 4.0; \u043a\u043e\u0434 \u043f\u0440\u0438\u043c\u0435\u0440\u043e\u0432 \u2014 MIT; \u0446\u0438\u0442\u0430\u0442\u044b \u0441\u0442\u043e\u0440\u043e\u043d\u043d\u0438\u0445 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u043e\u0432 \u2014 \u0443 \u043f\u0440\u0430\u0432\u043e\u043e\u0431\u043b\u0430\u0434\u0430\u0442\u0435\u043b\u0435\u0439", "manifest_digest": "b9e9ffed3d516c4c501ca5af01090bd767e0caeffd0e2f337a9f2b3ad3bca462", "noindex": false, "planned_count": 12, "public_base_url": "https://startup.stemschool.online", "ready_count": 4, "release_date": "2026-10-15", "release_id": "r0001", "release_root": "/r/r0001/", "release_state_label": "\u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0440\u0435\u0434\u0430\u043a\u0446\u0438\u044f \u0434\u043b\u044f \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438", "source_commit_sha": "6d5747a7e5643114d09816ccaf9ee30b51d7d79b", "teacher_links": {"ANS.L01": {"file": "content/L01/03_\u0420\u0423\u041a\u041e\u0412\u041e\u0414\u0421\u0422\u0412\u041e_\u041f\u0420\u0415\u041f\u041e\u0414\u0410\u0412\u0410\u0422\u0415\u041b\u042f.md", "lines": {"ANS.L01.T00": 1, "ANS.L01.T01": 7, "ANS.L01.T02": 26, "ANS.L01.T03": 50, "ANS.L01.T04": 71, "ANS.L01.T05": 87, "ANS.L01.T06": 127, "ANS.L01.T07": 150, "ANS.L01.T08": 163, "ANS.L01.T09": 177, "ANS.L01.T10": 189, "ANS.L01.T11": 199, "ANS.L01.T12": 209, "ANS.L01.T13": 217}}, "ANS.L02": {"file": "content/L02/03_\u0420\u0423\u041a\u041e\u0412\u041e\u0414\u0421\u0422\u0412\u041e_\u041f\u0420\u0415\u041f\u041e\u0414\u0410\u0412\u0410\u0422\u0415\u041b\u042f.md", "lines": {"ANS.L02.T00": 1, "ANS.L02.T01": 8, "ANS.L02.T02": 26, "ANS.L02.T03": 40, "ANS.L02.T04": 50, "ANS.L02.T05": 65, "ANS.L02.T06": 88, "ANS.L02.T07": 114, "ANS.L02.T08": 129, "ANS.L02.T09": 152, "ANS.L02.T10": 167, "ANS.L02.T11": 175, "ANS.L02.T12": 187, "ANS.L02.T13": 198, "ANS.L02.T14": 208}}, "ANS.L03": {"file": "content/L03/03_\u0420\u0423\u041a\u041e\u0412\u041e\u0414\u0421\u0422\u0412\u041e_\u041f\u0420\u0415\u041f\u041e\u0414\u0410\u0412\u0410\u0422\u0415\u041b\u042f.md", "lines": {"ANS.L03.T00": 1, "ANS.L03.T01": 7, "ANS.L03.T02": 29, "ANS.L03.T03": 44, "ANS.L03.T04": 58, "ANS.L03.T05": 76, "ANS.L03.T06": 109, "ANS.L03.T07": 125, "ANS.L03.T08": 153, "ANS.L03.T09": 163, "ANS.L03.T10": 173}}, "ANS.L04": {"file": "content/L04/03_\u0420\u0423\u041a\u041e\u0412\u041e\u0414\u0421\u0422\u0412\u041e_\u041f\u0420\u0415\u041f\u041e\u0414\u0410\u0412\u0410\u0422\u0415\u041b\u042f.md", "lines": {"ANS.L04.T00": 1, "ANS.L04.T01": 8, "ANS.L04.T02": 15, "ANS.L04.T03": 27, "ANS.L04.T04": 40, "ANS.L04.T05": 54, "ANS.L04.T06": 81, "ANS.L04.T07": 93, "ANS.L04.T08": 109, "ANS.L04.T09": 119, "ANS.L04.T10": 127}}}, "teacher_mode": "github-private"};</script>
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ANS-L02-W00" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+  
+  <div class="ans-status-banner" role="note">
+    <strong>Техническая редакция r0001</strong> ·
+    Веб-редакция для проверки — педагогический пилот не завершён ·
+    готово 4 из 12 уроков ·
+    <a href="../../about/">статус и выходные данные</a>
+  </div>
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="../.." title="AI-Native Startup" class="md-header__button md-logo" aria-label="AI-Native Startup" data-md-component="logo">
+      
+  <img src="../../assets/ans/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI-Native Startup
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Рабочая тетрадь
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="cyan"  aria-label="Переключить на тёмную"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Переключить на тёмную" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="cyan"  aria-label="Переключить на светлую"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Переключить на светлую" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Поделиться" aria-label="Поделиться" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="AI-Native Startup" class="md-nav__button md-logo" aria-label="AI-Native Startup" data-md-component="logo">
+      
+  <img src="../../assets/ans/logo.png" alt="logo">
+
+    </a>
+    AI-Native Startup
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Оглавление
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Уроки
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Уроки
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../student/L01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Урок 01. Компания из одного человека и команды ИИ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../student/L02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Урок 02. Поиск проблемы, за решение которой платят
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../student/L03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Урок 03. Как проверить бизнес-идею до разработки продукта
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../student/L04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Урок 04. Создаём собственную команду ИИ-исполнителей
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Практика
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Практика
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Урок 01
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Урок 01
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../L01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Рабочая тетрадь
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../L01/prompts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Промпты
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Урок 02
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Урок 02
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Рабочая тетрадь
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Рабочая тетрадь
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W01" class="md-nav__link">
+    <span class="md-ellipsis">
+      0. Проверяем, что осталось от урока 01 (3 минуты)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W02" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Различаем проблему и решение (4 минуты)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W03" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Выбираем узкий профиль клиента — ICP (5 минут)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W04" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. JTBD: пока только рабочая гипотеза (5 минут)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W05" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Собеседование без «продажи в вопросе» (5 минут)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W06" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Читаем учебные заметки до запуска ИИ (6 минут)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W07" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. ИИ помогает анализировать, но не создаёт доказательства (5 минут)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W08" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Письмо-приглашение и план реальных разговоров (5 минут)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W09" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Текущее решение
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Домашнее задание
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Самопроверка
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Файлы для практики
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="prompts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Промпты
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Урок 03
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Урок 03
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../L03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Рабочая тетрадь
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../L03/prompts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Промпты
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Урок 04
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Урок 04
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../L04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Рабочая тетрадь
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../L04/prompts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Промпты
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../L04/code/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Код и паспорт запуска
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Источники
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Источники
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../student/L01/sources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Урок 01
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../student/L02/sources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Урок 02
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../student/L03/sources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Урок 03
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../student/L04/sources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Урок 04
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pdf-builder/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Собрать PDF
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../search/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Поиск
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Загрузки
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Изменения
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Выходные данные
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W01" class="md-nav__link">
+    <span class="md-ellipsis">
+      0. Проверяем, что осталось от урока 01 (3 минуты)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W02" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Различаем проблему и решение (4 минуты)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W03" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Выбираем узкий профиль клиента — ICP (5 минут)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W04" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. JTBD: пока только рабочая гипотеза (5 минут)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W05" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Собеседование без «продажи в вопросе» (5 минут)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W06" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Читаем учебные заметки до запуска ИИ (6 минут)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W07" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. ИИ помогает анализировать, но не создаёт доказательства (5 минут)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W08" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Письмо-приглашение и план реальных разговоров (5 минут)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W09" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Текущее решение
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Домашнее задание
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ANS-L02-W11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Самопроверка
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Файлы для практики
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 data-bundle-hash="5618ed56f82429db6389d4fb3b2724eb26740e4cecfbd2721ddf17d157e8682e" data-lesson="ANS.L02" data-unit-id="ANS.L02.W00" id="ANS-L02-W00">Рабочая тетрадь · Урок 02<a class="headerlink" href="#ANS-L02-W00" title="Ссылка на раздел">¶</a></h1>
+<p><strong>Тема:</strong> поиск проблемы, за решение которой платят<br />
+<strong>Практика в аудитории:</strong> 30–35 минут · <strong>Домашняя работа:</strong> 30–45 минут активных действий<br />
+<strong>Имя / проект:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>__  <strong>Дата:</strong> <strong><em>_</em></strong><strong><em>_</em></strong>___</p>
+<blockquote>
+<p>Правило: все записи <code>I01–I12</code> в приложенном CSV <strong>вымышлены</strong>. Если вы извлекли из них вывод, пометьте его <code>SYNTHETIC</code>. Никогда не обозначайте такой вывод как реальный сигнал рынка.</p>
+</blockquote>
+<h2 data-bundle-hash="dd09dec6419ce4f195373a6da5cc25b63ce7dfbd80851003735584607bef4976" data-lesson="ANS.L02" data-unit-id="ANS.L02.W01" id="ANS-L02-W01">0. Проверяем, что осталось от урока 01 (3 минуты)<a class="headerlink" href="#ANS-L02-W01" title="Ссылка на раздел">¶</a></h2>
+<p>Откройте <code>01_startup_hypothesis.md</code>, <code>02_workflow_map.md</code>, <code>03_success_metrics.md</code>.</p>
+<p><strong>Моя прежняя гипотеза:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong></p>
+<p><strong>Что я знаю по реальным данным:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>____</p>
+<p><strong>Что я лишь предположил:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_____</p>
+<p><strong>Самое рискованное предположение:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>__</p>
+<h2 data-bundle-hash="54f63ea88146d376163ac5d564501fd331c98fab749c7466f360c5d895266c74" data-lesson="ANS.L02" data-unit-id="ANS.L02.W02" id="ANS-L02-W02">1. Различаем проблему и решение (4 минуты)<a class="headerlink" href="#ANS-L02-W02" title="Ссылка на раздел">¶</a></h2>
+<p>Пометьте <strong>СОБЫТИЕ</strong>, <strong>ГИПОТЕЗА ПРИЧИНЫ</strong>, <strong>ВОЗМОЖНОЕ РЕШЕНИЕ</strong> или <strong>ПРОДУКТ</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Высказывание</th>
+<th>Тип</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>«В четверг покупатель позвонил, чтобы исправить счёт»</td>
+<td></td>
+</tr>
+<tr>
+<td>«Значит, у сайта запутанный интерфейс»</td>
+<td></td>
+</tr>
+<tr>
+<td>«Нужно показывать клиенту понятную кнопку правки»</td>
+<td></td>
+</tr>
+<tr>
+<td>«Мы продадим подписку на ИИ-оператора»</td>
+<td></td>
+</tr>
+<tr>
+<td>«За одну неделю зафиксировано 40 звонков по счетам»</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Последняя строка показывает число разных клиентов? Почему?</strong></p>
+<hr />
+<h2 data-bundle-hash="f7cd3ec5deb71958ee631e0225e5b7cd66a2eab1b8b129f33bdb67b9ae7b74dd" data-lesson="ANS.L02" data-unit-id="ANS.L02.W03" id="ANS-L02-W03">2. Выбираем узкий профиль клиента — ICP (5 минут)<a class="headerlink" href="#ANS-L02-W03" title="Ссылка на раздел">¶</a></h2>
+<p><strong>Сфера / тип организации:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>____</p>
+<p><strong>Размер и повторяемая операция:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_____</p>
+<p><strong>Роль потенциального пользователя:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_</p>
+<p><strong>Кто выделяет деньги:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_</p>
+<p><strong>Кто должен дать доступ к данным:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>___</p>
+<p><strong>Кого намеренно пока НЕ исследуем:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_</p>
+<p><strong>Почему начинаю именно с этой группы:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>______</p>
+<p><strong>Три признака, по которым собеседник подходит сегменту:</strong></p>
+<ol>
+<li>
+<hr />
+</li>
+<li>
+<hr />
+</li>
+<li>
+<hr />
+</li>
+</ol>
+<p><strong>Где я смогу искать первых людей законным способом:</strong> <strong><em>_</em></strong><strong><em>_</em></strong>____</p>
+<h2 data-bundle-hash="a3923c6f8917329315053684eab1938747c32a7fd11b9d5f5e460f356d969040" data-lesson="ANS.L02" data-unit-id="ANS.L02.W04" id="ANS-L02-W04">3. JTBD: пока только рабочая гипотеза (5 минут)<a class="headerlink" href="#ANS-L02-W04" title="Ссылка на раздел">¶</a></h2>
+<p><strong>Когда (ситуация):</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_____</p>
+<p><strong>Я хочу (действие / продвижение):</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>___</p>
+<p><strong>Чтобы (польза):</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong></p>
+<p><strong>Но меня ограничивает / беспокоит:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>__</p>
+<p>Отметьте, откуда взята информация о каждом элементе:</p>
+<table>
+<thead>
+<tr>
+<th>Элемент</th>
+<th>Реальное интервью</th>
+<th>Документ / наблюдение</th>
+<th>Предположение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ситуация</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Действие</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Польза</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Ограничение</td>
+<td>☐</td>
+<td>☐</td>
+<td>☐</td>
+</tr>
+</tbody>
+</table>
+<p><em>Если ничего неизвестно, не ставьте отметку и запишите вопрос для интервью.</em></p>
+<h2 data-bundle-hash="9d0840429bb18d26b84795c26b0174906548a866292efe6adcb054256ff4b7d0" data-lesson="ANS.L02" data-unit-id="ANS.L02.W05" id="ANS-L02-W05">4. Собеседование без «продажи в вопросе» (5 минут)<a class="headerlink" href="#ANS-L02-W05" title="Ссылка на раздел">¶</a></h2>
+<p>Запишите пять основных вопросов. Они должны приглашать рассказать о <strong>конкретном прошлом событии</strong>.</p>
+<ol>
+<li>
+<hr />
+</li>
+<li>
+<hr />
+</li>
+<li>
+<hr />
+</li>
+<li>
+<hr />
+</li>
+<li>
+<hr />
+</li>
+</ol>
+<p><strong>Два уточнения, которые можно задать практически всегда:</strong></p>
+<p>А. <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_</p>
+<p>Б. <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_</p>
+<p>Найдите скрытую рекламу в вопросе «Вам ведь был бы полезен наш ИИ-аналитик?» и перепишите его:</p>
+<hr />
+<h2 data-bundle-hash="49bd780de198298367b1ae395b1397d308ef8744f3a68444a00a38298fceaa95" data-lesson="ANS.L02" data-unit-id="ANS.L02.W06" id="ANS-L02-W06">5. Читаем учебные заметки до запуска ИИ (6 минут)<a class="headerlink" href="#ANS-L02-W06" title="Ссылка на раздел">¶</a></h2>
+<p>Откройте <code>data/interview_notes_12_unlabeled.csv</code>.</p>
+<p>Разберите вручную <strong>I01, I03, I04, I07, I09, I12</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Подходит ICP?</th>
+<th>Есть недавний эпизод?</th>
+<th>Есть обходной путь?</th>
+<th>Экономический сигнал и полномочия</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I01</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>I03</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>I04</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>I07</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>I09</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>I12</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Самый сильный сигнал о возможной проблеме:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong></p>
+<p><strong>Два контрпримера, мешающих объявить проблему универсальной:</strong></p>
+<ol>
+<li>
+<hr />
+</li>
+<li>
+<hr />
+</li>
+</ol>
+<p><strong>Кого вы НЕ вправе считать покупателем этого B2B-сервиса и почему?</strong></p>
+<hr />
+<h2 data-bundle-hash="6bd1e858357ce58373c86f8b62cd98ed6f55203a5a20be30cb4d4c1b31afd27b" data-lesson="ANS.L02" data-unit-id="ANS.L02.W07" id="ANS-L02-W07">6. ИИ помогает анализировать, но не создаёт доказательства (5 минут)<a class="headerlink" href="#ANS-L02-W07" title="Ссылка на раздел">¶</a></h2>
+<p>Запустите <code>P03</code> из <code>PROMPTS.md</code>, предоставив <strong>только учебный CSV</strong>. Затем <code>P04</code> — поиск контрпримеров.</p>
+<table>
+<thead>
+<tr>
+<th>Проверяемое утверждение ИИ</th>
+<th>Какой ID он привёл?</th>
+<th>Есть ли фраза в исходнике?</th>
+<th>Решение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Одна ошибка или недоказанная интерпретация агента:</strong></p>
+<hr />
+<p><strong>Если ошибок не обнаружили, какую опасную интерпретацию вы специально искали?</strong></p>
+<hr />
+<h2 data-bundle-hash="eb40673b273c91b01e9d6d57f5ee06dcb0d1f398e393d573e5a000bec9397734" data-lesson="ANS.L02" data-unit-id="ANS.L02.W08" id="ANS-L02-W08">7. Письмо-приглашение и план реальных разговоров (5 минут)<a class="headerlink" href="#ANS-L02-W08" title="Ссылка на раздел">¶</a></h2>
+<p><strong>Черновик нейтрального приглашения (не продажа):</strong></p>
+<hr />
+<hr />
+<p><strong>Пять профилей собеседников (БЕЗ имён, телефонов и персональных данных):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Профиль</th>
+<th>Почему подходит ICP</th>
+<th>Что хотим узнать</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Правила перед разговором:</strong> объясню цель, не буду навязывать решение, заранее определю условия заметок/записи, не передам чужие данные ИИ без необходимых оснований и разрешений.</p>
+<h2 data-bundle-hash="4a1b8d8e27aba29a2b5a25e46ab5f84af5e2209bd0d9e1052f717bd41ae36ce1" data-lesson="ANS.L02" data-unit-id="ANS.L02.W09" id="ANS-L02-W09">8. Текущее решение<a class="headerlink" href="#ANS-L02-W09" title="Ссылка на раздел">¶</a></h2>
+<p>Отметьте <strong>одно</strong>:</p>
+<ul>
+<li>[ ] Сегмент слишком широкий — сначала сужаю ICP.</li>
+<li>[ ] Не хватает фактов — сначала провожу реальные интервью.</li>
+<li>[ ] Есть конкретные сигналы — планирую ограниченный проверочный пилот (пока не запускаю его без согласования).</li>
+</ul>
+<p><strong>Что может опровергнуть моё объяснение проблемы?</strong></p>
+<hr />
+<p><strong>Какую одну вещь я проверю прежде, чем писать новую функцию?</strong></p>
+<hr />
+<h2 data-bundle-hash="3f2b3769320f43c551edcddec2991c5b076aa62e2d8020e7fbe0deb75af684c4" data-lesson="ANS.L02" data-unit-id="ANS.L02.W10" id="ANS-L02-W10">Домашнее задание<a class="headerlink" href="#ANS-L02-W10" title="Ссылка на раздел">¶</a></h2>
+<ul>
+<li>[ ] Заполнить <code>04_customer_profile.md</code>.</li>
+<li>[ ] Подготовить <code>05_interview_guide.md</code>.</li>
+<li>[ ] Внести тренировочные записи в <code>06_evidence_register.csv</code>, помечая <code>SYNTHETIC</code>.</li>
+<li>[ ] Создать <code>07_problem_decision.md</code> с контрсвидетельствами.</li>
+<li>[ ] Отправить <strong>двум</strong> релевантным людям нейтральное приглашение.</li>
+<li>[ ] При возможности провести одно 10–15-минутное настоящее интервью.</li>
+<li>[ ] Если никто пока не ответил — оставить статус <code>NOT_YET_VALIDATED</code>.</li>
+</ul>
+<p><strong>Примечание:</strong> нельзя требовать от участника сдачи чужих адресов, телефонов или исходных конфиденциальных аудиозаписей.</p>
+<h2 data-bundle-hash="dfa39e3a3ae32016beb3c5f588ee421f16b82cee0bc5bf32c2cb5d9862ba543d" data-lesson="ANS.L02" data-unit-id="ANS.L02.W11" id="ANS-L02-W11">Самопроверка<a class="headerlink" href="#ANS-L02-W11" title="Ссылка на раздел">¶</a></h2>
+<ul>
+<li>[ ] Я не подменил проблему рекламой решения.</li>
+<li>[ ] Я могу назвать роль пользователя и того, кто может одобрить покупку.</li>
+<li>[ ] Мои вопросы касаются прошлого поведения, а не фантазии о будущем.</li>
+<li>[ ] Любая цитата имеет <code>source_id</code>; отсутствие цитаты обозначено явно.</li>
+<li>[ ] Я нашёл не только подтверждения, но и возражения.</li>
+<li>[ ] Я не сделал вывода о рынке по синтетическому CSV.</li>
+<li>[ ] Артефакты готовы для урока 03.</li>
+</ul>
+<p><strong>Главный новый факт из реального разговора (если он был):</strong> <strong><em>_</em></strong>_____</p>
+<p><strong>Главная нерешённая неопределённость:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>______</p>
+<h2 id="files">Файлы для практики<a class="headerlink" href="#files" title="Ссылка на раздел">¶</a></h2>
+<p>Все учебные наборы данных — <strong>синтетические</strong>. Не загружайте реальные клиентские данные, ключи и пароли в сторонние модели.</p>
+<table>
+<thead>
+<tr>
+<th>Файл</th>
+<th>ID</th>
+<th style="text-align: right;">Размер</th>
+<th>Пометки</th>
+<th>SHA-256</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/r/r0001/downloads/files/L02/data/interview_notes_12_unlabeled.csv"><code>data/interview_notes_12_unlabeled.csv</code></a></td>
+<td><code>ANS.L02.DATA02</code></td>
+<td style="text-align: right;">8 169 Б</td>
+<td>учебные данные (SYNTHETIC)</td>
+<td><code>785f0d73ac5e</code></td>
+</tr>
+<tr>
+<td><a href="/r/r0001/downloads/files/L02/data/lesson01_obrashcheniya_100_bez_metok.csv"><code>data/lesson01_obrashcheniya_100_bez_metok.csv</code></a></td>
+<td><code>ANS.L02.DATA04</code></td>
+<td style="text-align: right;">10 585 Б</td>
+<td>учебные данные (SYNTHETIC), копия ANS.L01.DATA02</td>
+<td><code>8426251fe303</code></td>
+</tr>
+<tr>
+<td><a href="/r/r0001/downloads/files/L02/demo/example_lesson01_entry.md"><code>demo/example_lesson01_entry.md</code></a></td>
+<td><code>ANS.L02.EX02</code></td>
+<td style="text-align: right;">2 425 Б</td>
+<td>учебные данные (SYNTHETIC)</td>
+<td><code>37c4c91f814b</code></td>
+</tr>
+<tr>
+<td><a href="/r/r0001/downloads/files/L02/figures/fig01_from_idea_to_problem.png"><code>figures/fig01_from_idea_to_problem.png</code></a></td>
+<td><code>ANS.L02.FIG01</code></td>
+<td style="text-align: right;">60 800 Б</td>
+<td>—</td>
+<td><code>3127fc527b3e</code></td>
+</tr>
+<tr>
+<td><a href="/r/r0001/downloads/files/L02/figures/fig01_from_idea_to_problem.svg"><code>figures/fig01_from_idea_to_problem.svg</code></a></td>
+<td><code>ANS.L02.FIG01</code></td>
+<td style="text-align: right;">4 598 Б</td>
+<td>—</td>
+<td><code>13861004346e</code></td>
+</tr>
+<tr>
+<td><a href="/r/r0001/downloads/files/L02/figures/fig02_jtbd_anatomy.png"><code>figures/fig02_jtbd_anatomy.png</code></a></td>
+<td><code>ANS.L02.FIG02</code></td>
+<td style="text-align: right;">55 226 Б</td>
+<td>—</td>
+<td><code>d6931b6afb9e</code></td>
+</tr>
+<tr>
+<td><a href="/r/r0001/downloads/files/L02/figures/fig02_jtbd_anatomy.svg"><code>figures/fig02_jtbd_anatomy.svg</code></a></td>
+<td><code>ANS.L02.FIG02</code></td>
+<td style="text-align: right;">4 436 Б</td>
+<td>—</td>
+<td><code>6a819acb5f1a</code></td>
+</tr>
+<tr>
+<td><a href="/r/r0001/downloads/files/L02/figures/fig03_evidence_to_test.png"><code>figures/fig03_evidence_to_test.png</code></a></td>
+<td><code>ANS.L02.FIG03</code></td>
+<td style="text-align: right;">55 949 Б</td>
+<td>—</td>
+<td><code>6b71b6d10127</code></td>
+</tr>
+<tr>
+<td><a href="/r/r0001/downloads/files/L02/figures/fig03_evidence_to_test.svg"><code>figures/fig03_evidence_to_test.svg</code></a></td>
+<td><code>ANS.L02.FIG03</code></td>
+<td style="text-align: right;">3 678 Б</td>
+<td>—</td>
+<td><code>941bf64a2b3c</code></td>
+</tr>
+<tr>
+<td><a href="/r/r0001/downloads/files/L02/public/README.md"><code>public/README.md</code></a></td>
+<td><code>ANS.L02.PUB01</code></td>
+<td style="text-align: right;">4 761 Б</td>
+<td>—</td>
+<td><code>1d03df95ecc6</code></td>
+</tr>
+<tr>
+<td><a href="/r/r0001/downloads/files/L02/templates/my-ai-startup/04_customer_profile.md"><code>templates/my-ai-startup/04_customer_profile.md</code></a></td>
+<td><code>ANS.L02.TPL04</code></td>
+<td style="text-align: right;">1 009 Б</td>
+<td>—</td>
+<td><code>1c84fc1ccf21</code></td>
+</tr>
+<tr>
+<td><a href="/r/r0001/downloads/files/L02/templates/my-ai-startup/05_interview_guide.md"><code>templates/my-ai-startup/05_interview_guide.md</code></a></td>
+<td><code>ANS.L02.TPL05</code></td>
+<td style="text-align: right;">1 956 Б</td>
+<td>—</td>
+<td><code>c55c846ccdfd</code></td>
+</tr>
+<tr>
+<td><a href="/r/r0001/downloads/files/L02/templates/my-ai-startup/06_evidence_register.csv"><code>templates/my-ai-startup/06_evidence_register.csv</code></a></td>
+<td><code>ANS.L02.TPL06</code></td>
+<td style="text-align: right;">217 Б</td>
+<td>—</td>
+<td><code>ded4fa158416</code></td>
+</tr>
+<tr>
+<td><a href="/r/r0001/downloads/files/L02/templates/my-ai-startup/07_problem_decision.md"><code>templates/my-ai-startup/07_problem_decision.md</code></a></td>
+<td><code>ANS.L02.TPL07</code></td>
+<td style="text-align: right;">1 346 Б</td>
+<td>—</td>
+<td><code>1194a8ac6c2b</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Шаблоны из предыдущих уроков</strong> (канон сквозного проекта, OD-05):</p>
+<ul>
+<li><code>01_startup_hypothesis.md</code> — используйте каноническую версию из урока 01: <a href="/r/r0001/downloads/files/L01/templates/my-ai-startup/01_startup_hypothesis.md"><code>templates/my-ai-startup/01_startup_hypothesis.md</code></a></li>
+<li><code>02_workflow_map.md</code> — используйте каноническую версию из урока 01: <a href="/r/r0001/downloads/files/L01/templates/my-ai-startup/02_workflow_map.md"><code>templates/my-ai-startup/02_workflow_map.md</code></a></li>
+<li><code>03_success_metrics.md</code> — используйте каноническую версию из урока 01: <a href="/r/r0001/downloads/files/L01/templates/my-ai-startup/03_success_metrics.md"><code>templates/my-ai-startup/03_success_metrics.md</code></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  К началу
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Нижний колонтитул" >
+        
+          
+          <a href="../L01/prompts/" class="md-footer__link md-footer__link--prev" aria-label="Назад: Промпты">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Назад
+              </span>
+              <div class="md-ellipsis">
+                Промпты
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="prompts/" class="md-footer__link md-footer__link--next" aria-label="Вперед: Промпты">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Вперед
+              </span>
+              <div class="md-ellipsis">
+                Промпты
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      
+<div class="md-copyright ans-footer">
+  <div class="ans-footer__brand">
+    <strong>ARISTOTEL · Редакция r0001</strong> · 2026-10-15 · техническая редакция для проверки, пилот не проводился
+  </div>
+  <div>
+    AI-Native Startup · редакция <code>r0001</code> ·
+    commit <code title="6d5747a7e5643114d09816ccaf9ee30b51d7d79b">6d5747a7e564</code> ·
+    manifest <code title="b9e9ffed3d516c4c501ca5af01090bd767e0caeffd0e2f337a9f2b3ad3bca462">b9e9ffed3d51</code>
+  </div>
+  <div>
+    Лицензия: <em>текст и иллюстрации — CC BY-NC-SA 4.0; код примеров — MIT; цитаты сторонних материалов — у правообладателей</em> ·
+    <a href="../../about/#privacy">Политика приватности</a> ·
+    <a href="../../about/#contact">Контакт владельца</a> ·
+    <a href="../../about/#feedback">Как оставить замечание</a>
+  </div>
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.top", "navigation.footer", "toc.follow", "search.highlight", "search.share", "content.code.copy"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": {"default": "current", "provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../assets/ans/ans.js"></script>
+      
+    
+  </body>
+</html>

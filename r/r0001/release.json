@@ -1,0 +1,32 @@
+{
+  "changes_summary": [
+    "Впервые опубликованы уроки 01–04 (техническая редакция для проверки на сайте).",
+    "Редакторский патч EP-0001: ученик не отсылается к закрытым файлам; файл Задания 7 урока 04 — без колонки-ответа.",
+    "Методическая сверка руководства с главами — после публикации (PROVISIONAL); технологические сведения — UNVERIFIED."
+  ],
+  "course_id": "ANS",
+  "education_status": "not_piloted",
+  "generator": {
+    "mkdocs": "1.6.1",
+    "mkdocs-material": "9.6.14",
+    "pdf-lib": "1.17.1",
+    "weasyprint": "66.0"
+  },
+  "license_label": "текст и иллюстрации — CC BY-NC-SA 4.0; код примеров — MIT; цитаты сторонних материалов — у правообладателей",
+  "planned_lessons_total": 12,
+  "public_manifest_digest": "b9e9ffed3d516c4c501ca5af01090bd767e0caeffd0e2f337a9f2b3ad3bca462",
+  "publication_ready": false,
+  "publication_type": "TECHNICAL_REVIEW_RELEASE",
+  "published_lessons": [
+    "ANS.L01",
+    "ANS.L02",
+    "ANS.L03",
+    "ANS.L04"
+  ],
+  "release_date": "2026-10-15",
+  "release_id": "r0001",
+  "release_state": "RELEASED",
+  "source_commit_sha": "6d5747a7e5643114d09816ccaf9ee30b51d7d79b",
+  "state_label": "техническая редакция для проверки",
+  "teacher_entry_url": "https://github.com/Bobfly1964/ans-textbook/tree/6d5747a7e5643114d09816ccaf9ee30b51d7d79b/content"
+}

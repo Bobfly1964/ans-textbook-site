@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /r/current/
+Disallow: /preview/
+Disallow: /teacher/
+Disallow: /api/
+Sitemap: https://startup.stemschool.online/sitemap.xml

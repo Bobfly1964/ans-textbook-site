@@ -1,0 +1,13 @@
+{
+  "current": "r0001",
+  "revoked": {},
+  "history": [
+    {
+      "at": "2026-10-15T13:57:43+00:00",
+      "current": "r0001",
+      "previous": "r0001",
+      "reason": "release r0001",
+      "run_id": "20261015T135649Z-e4768b"
+    }
+  ]
+}

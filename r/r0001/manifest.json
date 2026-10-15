@@ -1,0 +1,2550 @@
+{
+  "course_id": "ANS",
+  "lessons": [
+    {
+      "editorial_state": "IN_REVIEW",
+      "education_status": "not_piloted",
+      "lesson_id": "ANS.L01",
+      "publication_ready": false,
+      "resources": [
+        {
+          "media_type": "text/markdown",
+          "path": "01_УЧЕБНАЯ_ГЛАВА.md",
+          "resource_id": "ANS.L01.STU",
+          "role": "student_chapter",
+          "sha256": "fe804c89360cf69b77ba5ae1616d3642b777872d88bb85cacd857cbcbdfc207c",
+          "size": 47010
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "02_РАБОЧАЯ_ТЕТРАДЬ.md",
+          "resource_id": "ANS.L01.WB",
+          "role": "workbook",
+          "sha256": "a3a45a0138d3328d1511803cb90047830144a3e6519afcb3518eeb962c172dcc",
+          "size": 8254
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "06_ИСТОЧНИКИ_И_ОБНОВЛЕНИЯ.md",
+          "resource_id": "ANS.L01.SRCDOC",
+          "role": "sources",
+          "sha256": "977b97308e4875a96163ac64224f6e2ac928f11ba6bd90e5e383c5a877a1ea04",
+          "size": 8877
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "PROMPTS.md",
+          "resource_id": "ANS.L01.APP1",
+          "role": "prompts",
+          "sha256": "2f99aa000e324be182a765bc1aa0a70df617cba78cf1f82fd515264f6bc2982b",
+          "size": 6429
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "data/README.md",
+          "resource_id": "ANS.L01.DOC2",
+          "role": "readme",
+          "sha256": "edf972393fcf466aebfd042919c5f1f32b6a738e0093e2bc4dd2fce956f5b53d",
+          "size": 4205
+        },
+        {
+          "media_type": "text/csv",
+          "path": "data/obrashcheniya_100_bez_metok.csv",
+          "resource_id": "ANS.L01.DATA02",
+          "role": "dataset",
+          "sha256": "8426251fe3032eb234f132a35bb39bcee5a530cefd8b4cee68857013b75a40ac",
+          "size": 10585
+        },
+        {
+          "media_type": "image/png",
+          "path": "figures/fig01_activity_output_outcome.png",
+          "resource_id": "ANS.L01.FIG01",
+          "role": "figure_png",
+          "sha256": "428916ca7d8a7b60fa2a3fa66a50d4bf6c10038c7812eac9fa6115e9a823b5c6",
+          "size": 76518,
+          "variant": "png"
+        },
+        {
+          "media_type": "image/svg+xml",
+          "path": "figures/fig01_activity_output_outcome.svg",
+          "resource_id": "ANS.L01.FIG01",
+          "role": "figure_svg",
+          "sha256": "3f431f008ea5642b23247b5e87410932655ea53fb7f2f16c76cdea17e9717b44",
+          "size": 3788,
+          "variant": "svg"
+        },
+        {
+          "media_type": "image/png",
+          "path": "figures/fig02_roles_workflow.png",
+          "resource_id": "ANS.L01.FIG02",
+          "role": "figure_png",
+          "sha256": "113e810f445cdf771162268c691ade807b223815b8e89e109e8b66db90fda0b8",
+          "size": 61567,
+          "variant": "png"
+        },
+        {
+          "media_type": "image/svg+xml",
+          "path": "figures/fig02_roles_workflow.svg",
+          "resource_id": "ANS.L01.FIG02",
+          "role": "figure_svg",
+          "sha256": "6e7d6d102b853e24098049da41dc7433a9c72bc21d0e75b489e8445be0af0e95",
+          "size": 3147,
+          "variant": "svg"
+        },
+        {
+          "media_type": "image/png",
+          "path": "figures/fig03_support_cases.png",
+          "resource_id": "ANS.L01.FIG03",
+          "role": "figure_png",
+          "sha256": "a15676cb46199a4cb4bd90c9747d847ccd61c4212347c82e8a1317c7689a6aa8",
+          "size": 57406,
+          "variant": "png"
+        },
+        {
+          "media_type": "image/svg+xml",
+          "path": "figures/fig03_support_cases.svg",
+          "resource_id": "ANS.L01.FIG03",
+          "role": "figure_svg",
+          "sha256": "e34a70a78720ed81c5f86572f87ded214571230a6b823b98b72dd22740957e1a",
+          "size": 3117,
+          "variant": "svg"
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "templates/my-ai-startup/01_startup_hypothesis.md",
+          "resource_id": "ANS.L01.TPL01",
+          "role": "template",
+          "sha256": "7b0847f6e0e9274659241cba0ba1f26e33f076270f3fec2a68490a6d17697f77",
+          "size": 2041
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "templates/my-ai-startup/02_workflow_map.md",
+          "resource_id": "ANS.L01.TPL02",
+          "role": "template",
+          "sha256": "74e8d109e704d5468992207447af3a9347cd46835e1d875c65bb060d1e2af93a",
+          "size": 1488
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "templates/my-ai-startup/03_success_metrics.md",
+          "resource_id": "ANS.L01.TPL03",
+          "role": "template",
+          "sha256": "9384fcf79e3eb0e9f8941ffc3f86aaef642ac30a525e980a6258c8a3d4d8a61f",
+          "size": 2012
+        }
+      ],
+      "student_units": [
+        {
+          "assets": [],
+          "bundle_revision_hash": "51d006655dee2524483e5d90c083a5238067a319175747d24b44cf20d55cb817",
+          "heading": "Паспорт урока",
+          "kind": "S",
+          "source_lines": [
+            1,
+            11
+          ],
+          "text_revision_hash": "3f10cfcd0bb1b792f01d18da27f0357333acef156ef98dd4f3133596fc1f2363",
+          "unit_id": "ANS.L01.S00"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "2cb611b79b0cb0c1c49d15cfccc7f47028d3dbebb656448c9180bfef66eddae4",
+          "heading": "Чему вы научитесь",
+          "kind": "S",
+          "source_lines": [
+            12,
+            19
+          ],
+          "text_revision_hash": "765acec641ef08c40d111a439eeaaa259b0d5d9e8610a565947480ae6c5e5151",
+          "unit_id": "ANS.L01.S01"
+        },
+        {
+          "assets": [
+            {
+              "path": "figures/fig01_activity_output_outcome.png",
+              "resource_id": "ANS.L01.FIG01",
+              "sha256": "428916ca7d8a7b60fa2a3fa66a50d4bf6c10038c7812eac9fa6115e9a823b5c6"
+            },
+            {
+              "path": "figures/fig01_activity_output_outcome.svg",
+              "resource_id": "ANS.L01.FIG01",
+              "sha256": "3f431f008ea5642b23247b5e87410932655ea53fb7f2f16c76cdea17e9717b44"
+            }
+          ],
+          "bundle_revision_hash": "f0bcc5016ceeb8348719c0a826f2477894d00d1528c608f358c5025b2011f8bb",
+          "heading": "1. Знакомая ситуация: «Мы очень заняты, но что изменилось?»",
+          "kind": "S",
+          "source_lines": [
+            20,
+            70
+          ],
+          "text_revision_hash": "e137c89386d9686fb8f8c5e876ebdc7c3bf103be3c1c48d913c5397417bd037d",
+          "unit_id": "ANS.L01.S02"
+        },
+        {
+          "assets": [
+            {
+              "path": "figures/fig02_roles_workflow.png",
+              "resource_id": "ANS.L01.FIG02",
+              "sha256": "113e810f445cdf771162268c691ade807b223815b8e89e109e8b66db90fda0b8"
+            },
+            {
+              "path": "figures/fig02_roles_workflow.svg",
+              "resource_id": "ANS.L01.FIG02",
+              "sha256": "6e7d6d102b853e24098049da41dc7433a9c72bc21d0e75b489e8445be0af0e95"
+            }
+          ],
+          "bundle_revision_hash": "52a12071d9a910c53ff863bfb7c8485d7b174627064f0f39d45945a9fe21cfbf",
+          "heading": "2. Что означает «компания, построенная вокруг ИИ»",
+          "kind": "S",
+          "source_lines": [
+            71,
+            127
+          ],
+          "text_revision_hash": "35248bf4346bea8f7e73ebf1bbacb84689e3369fac4703db4d6d2f029b8f7cbc",
+          "unit_id": "ANS.L01.S03"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "9a952d953845fb23dc24d8bc68e0706ef20f16094caa13ca497ff05e85f10a58",
+          "heading": "3. Бизнес — это путь клиента, а не список функций",
+          "kind": "S",
+          "source_lines": [
+            128,
+            175
+          ],
+          "text_revision_hash": "2cf80a8c43b3db5a5f61d9b6c9cd8cfd8be7c988f0c63dddc7736b490a84484a",
+          "unit_id": "ANS.L01.S04"
+        },
+        {
+          "assets": [
+            {
+              "path": "data/obrashcheniya_100_bez_metok.csv",
+              "resource_id": "ANS.L01.DATA02",
+              "sha256": "8426251fe3032eb234f132a35bb39bcee5a530cefd8b4cee68857013b75a40ac"
+            },
+            {
+              "path": "figures/fig03_support_cases.png",
+              "resource_id": "ANS.L01.FIG03",
+              "sha256": "a15676cb46199a4cb4bd90c9747d847ccd61c4212347c82e8a1317c7689a6aa8"
+            },
+            {
+              "path": "figures/fig03_support_cases.svg",
+              "resource_id": "ANS.L01.FIG03",
+              "sha256": "e34a70a78720ed81c5f86572f87ded214571230a6b823b98b72dd22740957e1a"
+            }
+          ],
+          "bundle_revision_hash": "2bcd7bf7c5f4d3e650eed3496f30b5bff5ef6136ef222469ef2b6baac27da935",
+          "heading": "4. Практический кейс: сто обращений в поддержку",
+          "kind": "S",
+          "source_lines": [
+            176,
+            231
+          ],
+          "text_revision_hash": "3875a68110885af64c1ac7d5cc490d0a99634a5ae620723dd843b0f2efca007b",
+          "unit_id": "ANS.L01.S05"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "1afe401b71d4c21bd4a9d13fb201d8432339d4f45b59600377a3d3fe7109e3a1",
+          "heading": "5. Что именно стоит доверить искусственному интеллекту",
+          "kind": "S",
+          "source_lines": [
+            232,
+            270
+          ],
+          "text_revision_hash": "f46e7c1456924c7d677374af073909992a83d917074673fc62f1bac68eec2384",
+          "unit_id": "ANS.L01.S06"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "77d99b368d59b7faaf2e4342e67e1e2831235f34a0b8919f62d0cdc2c678c6d7",
+          "heading": "6. Первая демонстрация с ИИ: от идеи к проверяемой гипотезе",
+          "kind": "S",
+          "source_lines": [
+            271,
+            338
+          ],
+          "text_revision_hash": "a9c20ecc8887d683685c527afbbd179dc565a6bb1409a6a5e1a089d1ece77dcb",
+          "unit_id": "ANS.L01.S07"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "e26ea1e36251652bbecdd3199bcd178d67b5d8acbba6ebd123c9572e5da97167",
+          "heading": "7. Создаём схему собственного стартапа",
+          "kind": "S",
+          "source_lines": [
+            339,
+            403
+          ],
+          "text_revision_hash": "f653989ea80f9db08af08d3214c28d2c85910eca8dddc0f0c1aadd800aa6489d",
+          "unit_id": "ANS.L01.S08"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "3ad82e94e320a47d9c76edfa5c41cdc39741e5d881487959580d9e2108a90828",
+          "heading": "8. Почему нельзя сразу «запустить 20 агентов»",
+          "kind": "S",
+          "source_lines": [
+            404,
+            423
+          ],
+          "text_revision_hash": "d916c5f10e4a231ec2ac26ca3ac0177266ab92ffb980033d279523ebe57a9e90",
+          "unit_id": "ANS.L01.S09"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "25aaa184a9bfed8b7d25c39bceeebb913f20db8ca9fd67ff9727251c8b975d46",
+          "heading": "9. Безопасность начинается уже в первом уроке",
+          "kind": "S",
+          "source_lines": [
+            424,
+            438
+          ],
+          "text_revision_hash": "d6c3ad7f6623156e7acee79fa0d326d646f6e0fb5cdf3c86dd7f9470d14215d2",
+          "unit_id": "ANS.L01.S10"
+        },
+        {
+          "assets": [
+            {
+              "path": "templates/my-ai-startup/01_startup_hypothesis.md",
+              "resource_id": "ANS.L01.TPL01",
+              "sha256": "7b0847f6e0e9274659241cba0ba1f26e33f076270f3fec2a68490a6d17697f77"
+            },
+            {
+              "path": "templates/my-ai-startup/02_workflow_map.md",
+              "resource_id": "ANS.L01.TPL02",
+              "sha256": "74e8d109e704d5468992207447af3a9347cd46835e1d875c65bb060d1e2af93a"
+            },
+            {
+              "path": "templates/my-ai-startup/03_success_metrics.md",
+              "resource_id": "ANS.L01.TPL03",
+              "sha256": "9384fcf79e3eb0e9f8941ffc3f86aaef642ac30a525e980a6258c8a3d4d8a61f"
+            }
+          ],
+          "bundle_revision_hash": "b51a2cb1cfc43076ce56a8fd1ad175530d39542009c0e513b465e35fd9f4b81c",
+          "heading": "10. Что у вас должно появиться в конце урока",
+          "kind": "S",
+          "source_lines": [
+            439,
+            476
+          ],
+          "text_revision_hash": "42e695576658ef39aa5781a3061e7635ce6d88fba5065a6c5b35a84f49de3d47",
+          "unit_id": "ANS.L01.S11"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "4e66b00f043a67ddd9647303314f0d459a925968fc0b06f16c4a8bb53511396f",
+          "heading": "Короткий итог",
+          "kind": "S",
+          "source_lines": [
+            477,
+            488
+          ],
+          "text_revision_hash": "f675414187244004c13b88659a7cee2a3abea2df054549370686283bb09aadfd",
+          "unit_id": "ANS.L01.S12"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "05764dc9094fa5ee45682af75e8fba75438cbf9a27e5113e0c712272deef8bff",
+          "heading": "Примечание об источниках и степени подтверждения",
+          "kind": "S",
+          "source_lines": [
+            489,
+            501
+          ],
+          "text_revision_hash": "762067ed6f6717543e1c046b61a5038a0d41df2bc4b85054d0332bedf3aacdef",
+          "unit_id": "ANS.L01.S13"
+        }
+      ],
+      "title": "Компания из одного человека и команды ИИ",
+      "workbook_units": [
+        {
+          "assets": [],
+          "bundle_revision_hash": "caf03cdb58d2056a8585f48c21403fe495a5b9b35935befde82be69138fa0e55",
+          "heading": "Вход в тетрадь",
+          "kind": "W",
+          "source_lines": [
+            1,
+            9
+          ],
+          "text_revision_hash": "6f26e78bbd5a7a47a733a20688c340f82ebd47d55b63db24fc4d79ac8586a3e4",
+          "unit_id": "ANS.L01.W00"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "fb095930af4c9d1eb0b1a5daf7d82cd6d7dc1ce6bb3cf65a00087de5adcab503",
+          "heading": "Задание 0. Предсказание до демонстрации (3 минуты)",
+          "kind": "W",
+          "source_lines": [
+            10,
+            23
+          ],
+          "text_revision_hash": "1d6ad15144f0b605088a265d23af4b9970ac94ffff8b19f417372a6aed27ef74",
+          "unit_id": "ANS.L01.W01"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "fbfc5e43d750c0a78082aefef46e9751ea9dba4837efd450d0f148ca8bb39483",
+          "heading": "Задание 1. Различаем деятельность, результат работы и пользу (5 минут)",
+          "kind": "W",
+          "source_lines": [
+            24,
+            39
+          ],
+          "text_revision_hash": "6d086b7775865dc005ab3589c20df746d04857b119e4df11da44e1576ec37e20",
+          "unit_id": "ANS.L01.W02"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "0ecaf298470cc740fc0edfa4b4d088071b5fdcd79e7e116b2ed909f068bf8540",
+          "heading": "Задание 2. Формулируем гипотезу стартапа (7 минут)",
+          "kind": "W",
+          "source_lines": [
+            40,
+            66
+          ],
+          "text_revision_hash": "4c4e44bd3037b1886f852ad85da94d56a0c0bbf9b11fba83372af2f51ea4b1bb",
+          "unit_id": "ANS.L01.W03"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "5d4ff74733855e2b5831b06b76f0c492cd9d02ff9de58981e9c8c05f6d0f3cae",
+          "heading": "Задание 3. Нарисуйте минимальный процесс (10 минут)",
+          "kind": "W",
+          "source_lines": [
+            67,
+            90
+          ],
+          "text_revision_hash": "ca972b7a7a1d87bc38b9fcd3abf5b33f20f67e1b5b5faefb2f942033e605d6f9",
+          "unit_id": "ANS.L01.W04"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "925aaef3bbee95b396f736d4f142195e83c9772d0613c4d0503508899a96dbde",
+          "heading": "Задание 4. Три показателя успеха (5 минут)",
+          "kind": "W",
+          "source_lines": [
+            91,
+            100
+          ],
+          "text_revision_hash": "25aaa835213deaefcf54fc361bf039260d5ed5db0fa4cff1eefc83af5a0517e6",
+          "unit_id": "ANS.L01.W05"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "4e9fc0da44c032a201616883f27a3a0125af0233ae522d05f551a56e8af17443",
+          "heading": "Задание 5. Критик ИИ (5 минут)",
+          "kind": "W",
+          "source_lines": [
+            101,
+            116
+          ],
+          "text_revision_hash": "8032df895f895ba1ef15bd9d357334c848bcddab93ad96959fb8b4ca97867a51",
+          "unit_id": "ANS.L01.W06"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "495fb991eb7fe0370db85fc9950caf3053ff3997019376301755279c378fa96b",
+          "heading": "Задание 6. Защита своей схемы (5 минут)",
+          "kind": "W",
+          "source_lines": [
+            117,
+            128
+          ],
+          "text_revision_hash": "f66012e86692305ec6c789eba8b5b8404209ce8696f571b07dc4bbc1a985f69e",
+          "unit_id": "ANS.L01.W07"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "3b81aeadc0beae7e53e629b11fa1efb48a0689f0151dda75b56fcdbdca188f27",
+          "heading": "Домашнее задание",
+          "kind": "W",
+          "source_lines": [
+            129,
+            146
+          ],
+          "text_revision_hash": "95a8dc6eda653ba96109fdc4fc9e1581540d9ae8d2f4b6287858f7e303d40cb9",
+          "unit_id": "ANS.L01.W08"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "98fa3b4601942e0900705776435a61c9356ec7c23ef01488beca0c5876798d54",
+          "heading": "Самопроверка",
+          "kind": "W",
+          "source_lines": [
+            147,
+            158
+          ],
+          "text_revision_hash": "394038a370b1c6e1065bd2126a8a66f052e2274ba680c5cad4682a7b3f410d29",
+          "unit_id": "ANS.L01.W09"
+        }
+      ]
+    },
+    {
+      "editorial_state": "IN_REVIEW",
+      "education_status": "not_piloted",
+      "lesson_id": "ANS.L02",
+      "publication_ready": false,
+      "resources": [
+        {
+          "media_type": "text/markdown",
+          "path": "01_УЧЕБНАЯ_ГЛАВА.md",
+          "resource_id": "ANS.L02.STU",
+          "role": "student_chapter",
+          "sha256": "5c94e5a6e2052013410aadd15d4e3f076d71068677d9f0b5a4d682a07d518ac2",
+          "size": 45188
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "02_РАБОЧАЯ_ТЕТРАДЬ.md",
+          "resource_id": "ANS.L02.WB",
+          "role": "workbook",
+          "sha256": "90982a65f34a9c0d87b8cc206775d14585093b17053085519ca4a10ac2a2d0a4",
+          "size": 11307
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "06_ИСТОЧНИКИ_И_ОБНОВЛЕНИЯ.md",
+          "resource_id": "ANS.L02.SRCDOC",
+          "role": "sources",
+          "sha256": "ecf918432c79b41c95baeaa33c7bfad3168b1a43bc958a08f91e8496286e9fb4",
+          "size": 12446
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "PROMPTS.md",
+          "resource_id": "ANS.L02.APP1",
+          "role": "prompts",
+          "sha256": "602bab73a4d93bb2699505155feec653e8904e431b77fd4461370d72c29e5f37",
+          "size": 13398
+        },
+        {
+          "media_type": "text/csv",
+          "path": "data/interview_notes_12_unlabeled.csv",
+          "resource_id": "ANS.L02.DATA02",
+          "role": "dataset",
+          "sha256": "785f0d73ac5e35145defb218bc5c75ddea5dcbfa8ecb979382facfad9452ed4d",
+          "size": 8169
+        },
+        {
+          "duplicate_of": "ANS.L01.DATA02",
+          "media_type": "text/csv",
+          "path": "data/lesson01_obrashcheniya_100_bez_metok.csv",
+          "resource_id": "ANS.L02.DATA04",
+          "role": "dataset",
+          "sha256": "8426251fe3032eb234f132a35bb39bcee5a530cefd8b4cee68857013b75a40ac",
+          "size": 10585
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "demo/example_lesson01_entry.md",
+          "resource_id": "ANS.L02.EX02",
+          "role": "example",
+          "sha256": "37c4c91f814b50309dd3b8aaab02d427ed1aa5da33aafd3cb91e912c1ad7ece5",
+          "size": 2425
+        },
+        {
+          "media_type": "image/png",
+          "path": "figures/fig01_from_idea_to_problem.png",
+          "resource_id": "ANS.L02.FIG01",
+          "role": "figure_png",
+          "sha256": "3127fc527b3eb916a616a4b181d566524f06a168f7d25ca8f8a2eed5993e3d60",
+          "size": 60800,
+          "variant": "png"
+        },
+        {
+          "media_type": "image/svg+xml",
+          "path": "figures/fig01_from_idea_to_problem.svg",
+          "resource_id": "ANS.L02.FIG01",
+          "role": "figure_svg",
+          "sha256": "13861004346ee3741ac7157fd0a4649a95763175274f5a6c5f1f944a082c71ca",
+          "size": 4598,
+          "variant": "svg"
+        },
+        {
+          "media_type": "image/png",
+          "path": "figures/fig02_jtbd_anatomy.png",
+          "resource_id": "ANS.L02.FIG02",
+          "role": "figure_png",
+          "sha256": "d6931b6afb9e7c742a0607514283fbfc6827d634ed71742d7ac3a1d90f924719",
+          "size": 55226,
+          "variant": "png"
+        },
+        {
+          "media_type": "image/svg+xml",
+          "path": "figures/fig02_jtbd_anatomy.svg",
+          "resource_id": "ANS.L02.FIG02",
+          "role": "figure_svg",
+          "sha256": "6a819acb5f1aacbad3e59ad7641bae696983a0a99114b6e4bb1cd7473db0f6ec",
+          "size": 4436,
+          "variant": "svg"
+        },
+        {
+          "media_type": "image/png",
+          "path": "figures/fig03_evidence_to_test.png",
+          "resource_id": "ANS.L02.FIG03",
+          "role": "figure_png",
+          "sha256": "6b71b6d10127eb234d95f38fe2b9f1921c056a5d62e14de5fcc1458a243abaf2",
+          "size": 55949,
+          "variant": "png"
+        },
+        {
+          "media_type": "image/svg+xml",
+          "path": "figures/fig03_evidence_to_test.svg",
+          "resource_id": "ANS.L02.FIG03",
+          "role": "figure_svg",
+          "sha256": "941bf64a2b3cdb3e9161c7ab687ab3b7072678779e63eb1893d4e707cdb375a9",
+          "size": 3678,
+          "variant": "svg"
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "public/README.md",
+          "resource_id": "ANS.L02.PUB01",
+          "role": "readme",
+          "sha256": "1d03df95ecc62f262eba2ea7138be9901c5fd649e8255965f942c82a535c18f0",
+          "size": 4761
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "templates/my-ai-startup/04_customer_profile.md",
+          "resource_id": "ANS.L02.TPL04",
+          "role": "template",
+          "sha256": "1c84fc1ccf21336c18a23cddcc39942d380d4ce939a6a4d651647a67c29afe37",
+          "size": 1009
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "templates/my-ai-startup/05_interview_guide.md",
+          "resource_id": "ANS.L02.TPL05",
+          "role": "template",
+          "sha256": "c55c846ccdfd94e64d8d4d2b4d833cfadf6d638b3dce8a2771831622fd7731e9",
+          "size": 1956
+        },
+        {
+          "media_type": "text/csv",
+          "path": "templates/my-ai-startup/06_evidence_register.csv",
+          "resource_id": "ANS.L02.TPL06",
+          "role": "template",
+          "sha256": "ded4fa158416c556cfe0ca2af312f496e649520fe9e8962cd3d9a7ad1144b806",
+          "size": 217
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "templates/my-ai-startup/07_problem_decision.md",
+          "resource_id": "ANS.L02.TPL07",
+          "role": "template",
+          "sha256": "1194a8ac6c2b7c651d01e027dceedb16b5299fd7a8fad5caf11d3ac994ac97d4",
+          "size": 1346
+        }
+      ],
+      "student_units": [
+        {
+          "assets": [],
+          "bundle_revision_hash": "09261f736c67b3e55a2d5f5e490346463f31343ac389b3503f714c7465e0d605",
+          "heading": "Паспорт урока",
+          "kind": "S",
+          "source_lines": [
+            1,
+            11
+          ],
+          "text_revision_hash": "92f9be3668cc701729416de5968fd172ba19d1da70addcc65e73a2814d661b10",
+          "unit_id": "ANS.L02.S00"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "b10e3fc605c93634a6e5c42ceda6cf14704811b696e099551c2ac88888408cb8",
+          "heading": "Чему вы научитесь",
+          "kind": "S",
+          "source_lines": [
+            12,
+            19
+          ],
+          "text_revision_hash": "42ce407b35df38efd75f2b1010679d5d99547214e19faffa12a43fe9562d72b2",
+          "unit_id": "ANS.L02.S01"
+        },
+        {
+          "assets": [
+            {
+              "path": "data/interview_notes_12_unlabeled.csv",
+              "resource_id": "ANS.L02.DATA02",
+              "sha256": "785f0d73ac5e35145defb218bc5c75ddea5dcbfa8ecb979382facfad9452ed4d"
+            },
+            {
+              "path": "figures/fig01_from_idea_to_problem.png",
+              "resource_id": "ANS.L02.FIG01",
+              "sha256": "3127fc527b3eb916a616a4b181d566524f06a168f7d25ca8f8a2eed5993e3d60"
+            },
+            {
+              "path": "figures/fig01_from_idea_to_problem.svg",
+              "resource_id": "ANS.L02.FIG01",
+              "sha256": "13861004346ee3741ac7157fd0a4649a95763175274f5a6c5f1f944a082c71ca"
+            }
+          ],
+          "bundle_revision_hash": "246f16c51d4cb21dccf0716f5ce5e2665a4c7bf11f736485845844bc489c69fc",
+          "heading": "1. Сцена: «Все сказали, что идея прекрасная»",
+          "kind": "S",
+          "source_lines": [
+            20,
+            43
+          ],
+          "text_revision_hash": "4e36d8647e5464d873ade75dda293001217beb0a92f1680fd1363850b04ce914",
+          "unit_id": "ANS.L02.S02"
+        },
+        {
+          "assets": [
+            {
+              "restricted": true,
+              "sha256": "ee81cd9fd7e6b4be9a405ae1193f0572bd5b543cec05e912fd6f76f3aec350af"
+            }
+          ],
+          "bundle_revision_hash": "49bef57501d81d92a68c240dc4de9955eceeed606ab4628b45e304b7bfa03dde",
+          "heading": "2. Проблема — не то же самое, что решение",
+          "kind": "S",
+          "source_lines": [
+            44,
+            72
+          ],
+          "text_revision_hash": "8ba22f087c8e5c937396264f97b5dc096ddfee4315b9e5f45d38df8281af2e06",
+          "unit_id": "ANS.L02.S03"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "a22092dcf6b7544a16a52f0ea389c1bd986cf2eb9297116fc39f242a23d44f3d",
+          "heading": "3. Кто именно должен стать клиентом?",
+          "kind": "S",
+          "source_lines": [
+            73,
+            100
+          ],
+          "text_revision_hash": "3d3053ddd0e9fe95142b180abc4c8992e81eec43fede73b8b2723d3137086191",
+          "unit_id": "ANS.L02.S04"
+        },
+        {
+          "assets": [
+            {
+              "path": "figures/fig02_jtbd_anatomy.png",
+              "resource_id": "ANS.L02.FIG02",
+              "sha256": "d6931b6afb9e7c742a0607514283fbfc6827d634ed71742d7ac3a1d90f924719"
+            },
+            {
+              "path": "figures/fig02_jtbd_anatomy.svg",
+              "resource_id": "ANS.L02.FIG02",
+              "sha256": "6a819acb5f1aacbad3e59ad7641bae696983a0a99114b6e4bb1cd7473db0f6ec"
+            }
+          ],
+          "bundle_revision_hash": "0fec3c1b3efb1d2dd89a2cf3e97df2b8aa3df8962b416ef21e7b3ef35820ab66",
+          "heading": "4. Jobs To Be Done: «работа», ради которой люди пользуются продуктом",
+          "kind": "S",
+          "source_lines": [
+            101,
+            142
+          ],
+          "text_revision_hash": "5ec1f737739ed50472a72ea25fa26575358130ba6a98eae61b3737ab6c4580b2",
+          "unit_id": "ANS.L02.S05"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "d499ff3c2c35b955c614a59041051c91586aca4c006eda6fb12ea8609b9ca07e",
+          "heading": "5. Как брать интервью и не навязывать ответ",
+          "kind": "S",
+          "source_lines": [
+            143,
+            180
+          ],
+          "text_revision_hash": "c45b4bfdd0d89110f2368c3ef17cda105084520bd97aef2c9293750368b69cba",
+          "unit_id": "ANS.L02.S06"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "6c6f5ea8fced835e28b705e231746394b0ce7b098bb9e6ba5444a62417903402",
+          "heading": "6. Сценарий первых 15 минут",
+          "kind": "S",
+          "source_lines": [
+            181,
+            209
+          ],
+          "text_revision_hash": "82a72fd0633b1a3991401a08b99d2e162575b2ad41876944c6c0d6a7a720a95b",
+          "unit_id": "ANS.L02.S07"
+        },
+        {
+          "assets": [
+            {
+              "path": "data/interview_notes_12_unlabeled.csv",
+              "resource_id": "ANS.L02.DATA02",
+              "sha256": "785f0d73ac5e35145defb218bc5c75ddea5dcbfa8ecb979382facfad9452ed4d"
+            },
+            {
+              "path": "templates/my-ai-startup/06_evidence_register.csv",
+              "resource_id": "ANS.L02.TPL06",
+              "sha256": "ded4fa158416c556cfe0ca2af312f496e649520fe9e8962cd3d9a7ad1144b806"
+            }
+          ],
+          "bundle_revision_hash": "a5161b03e19fb30ce42e849d16bcf16975c486d68a027bd4e0610b8800beec82",
+          "heading": "7. От рассказа к свидетельству: реестр, а не красивая история",
+          "kind": "S",
+          "source_lines": [
+            210,
+            247
+          ],
+          "text_revision_hash": "5735d5bc2da7bf7caa1bdc61e73c104f7eb30424e21978d1c1c59979762be22c",
+          "unit_id": "ANS.L02.S08"
+        },
+        {
+          "assets": [
+            {
+              "path": "figures/fig03_evidence_to_test.png",
+              "resource_id": "ANS.L02.FIG03",
+              "sha256": "6b71b6d10127eb234d95f38fe2b9f1921c056a5d62e14de5fcc1458a243abaf2"
+            },
+            {
+              "path": "figures/fig03_evidence_to_test.svg",
+              "resource_id": "ANS.L02.FIG03",
+              "sha256": "941bf64a2b3cdb3e9161c7ab687ab3b7072678779e63eb1893d4e707cdb375a9"
+            }
+          ],
+          "bundle_revision_hash": "529d1e13cb02d4d3d0e897cedad5a964b29fd4f23c1df12bc01bdd605c9906fc",
+          "heading": "8. Что ИИ делает хорошо, а чего делать не должен",
+          "kind": "S",
+          "source_lines": [
+            248,
+            267
+          ],
+          "text_revision_hash": "9cbd7ff780f46b069b62299e39fcc467a12bd8988fd6287d883983d1e67fd7ee",
+          "unit_id": "ANS.L02.S09"
+        },
+        {
+          "assets": [
+            {
+              "path": "data/interview_notes_12_unlabeled.csv",
+              "resource_id": "ANS.L02.DATA02",
+              "sha256": "785f0d73ac5e35145defb218bc5c75ddea5dcbfa8ecb979382facfad9452ed4d"
+            }
+          ],
+          "bundle_revision_hash": "9fcc450adb0d3c91aef1ee238d08e321acc72569ec0a0324700065e0d83a4ca6",
+          "heading": "9. Демонстрация: двенадцать несовпадающих историй",
+          "kind": "S",
+          "source_lines": [
+            268,
+            287
+          ],
+          "text_revision_hash": "5903e373b0ea0654ea52a35599f1f36ad41313b0793d4729fb7a15eb4976e933",
+          "unit_id": "ANS.L02.S10"
+        },
+        {
+          "assets": [
+            {
+              "path": "data/interview_notes_12_unlabeled.csv",
+              "resource_id": "ANS.L02.DATA02",
+              "sha256": "785f0d73ac5e35145defb218bc5c75ddea5dcbfa8ecb979382facfad9452ed4d"
+            },
+            {
+              "restricted": true,
+              "sha256": "15547e501cc9ac273598214e1923799cbcd8ac5c7281e7f29ea4a052fc22518c"
+            },
+            {
+              "restricted": true,
+              "sha256": "e7aaf3a43ab521bf580feb0965ed528f8b09bbd5f292e9637451e85ef5dae5e3"
+            },
+            {
+              "restricted": true,
+              "sha256": "e4a83a62c293ae1be73c2e4949a01740a8098d19ac77527cbc3c521eadc6e331"
+            }
+          ],
+          "bundle_revision_hash": "ea5cfce2e0ca42bd62d92732ca969590c18766cc1cb1ea41f042b552d8c18f82",
+          "heading": "10. Практика: готовим первые реальные интервью",
+          "kind": "S",
+          "source_lines": [
+            288,
+            333
+          ],
+          "text_revision_hash": "6267159e3d38e7277081200cbd23945b715096b2db1cda82686203ebd64bb0bb",
+          "unit_id": "ANS.L02.S11"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "04878658424b031e1f40f6b41d46cd3ee773cf0687e1177b3d69b3e8cfb5da61",
+          "heading": "11. Что делать после первых разговоров",
+          "kind": "S",
+          "source_lines": [
+            334,
+            349
+          ],
+          "text_revision_hash": "872e33cd6798c35838e6b4df6e3a15308b38ca783bd2a8583edeb431595f2cf3",
+          "unit_id": "ANS.L02.S12"
+        },
+        {
+          "assets": [
+            {
+              "restricted": true,
+              "sha256": "15547e501cc9ac273598214e1923799cbcd8ac5c7281e7f29ea4a052fc22518c"
+            },
+            {
+              "restricted": true,
+              "sha256": "e7aaf3a43ab521bf580feb0965ed528f8b09bbd5f292e9637451e85ef5dae5e3"
+            },
+            {
+              "restricted": true,
+              "sha256": "e4a83a62c293ae1be73c2e4949a01740a8098d19ac77527cbc3c521eadc6e331"
+            },
+            {
+              "path": "templates/my-ai-startup/04_customer_profile.md",
+              "resource_id": "ANS.L02.TPL04",
+              "sha256": "1c84fc1ccf21336c18a23cddcc39942d380d4ce939a6a4d651647a67c29afe37"
+            },
+            {
+              "path": "templates/my-ai-startup/05_interview_guide.md",
+              "resource_id": "ANS.L02.TPL05",
+              "sha256": "c55c846ccdfd94e64d8d4d2b4d833cfadf6d638b3dce8a2771831622fd7731e9"
+            },
+            {
+              "path": "templates/my-ai-startup/06_evidence_register.csv",
+              "resource_id": "ANS.L02.TPL06",
+              "sha256": "ded4fa158416c556cfe0ca2af312f496e649520fe9e8962cd3d9a7ad1144b806"
+            },
+            {
+              "path": "templates/my-ai-startup/07_problem_decision.md",
+              "resource_id": "ANS.L02.TPL07",
+              "sha256": "1194a8ac6c2b7c651d01e027dceedb16b5299fd7a8fad5caf11d3ac994ac97d4"
+            }
+          ],
+          "bundle_revision_hash": "75ca72a8b596b9d54ef944b99369139e9c5d13af4b1ce2fc9c43ca80946d7cc0",
+          "heading": "12. Домашняя работа и созданные артефакты",
+          "kind": "S",
+          "source_lines": [
+            350,
+            380
+          ],
+          "text_revision_hash": "81e28b8925c228271d9ccb0219f69dca93687a200f7fa736c6740684d3dcf2b9",
+          "unit_id": "ANS.L02.S13"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "6172874c05d7658ae321629c90dc6259afe54b092192e7968477b3104a237a2f",
+          "heading": "Короткий итог",
+          "kind": "S",
+          "source_lines": [
+            381,
+            393
+          ],
+          "text_revision_hash": "fc5317f107c1f987de94474dcb0e15914e7184953d485bdce43fa2a0910615a9",
+          "unit_id": "ANS.L02.S14"
+        }
+      ],
+      "title": "Поиск проблемы, за решение которой платят",
+      "workbook_units": [
+        {
+          "assets": [],
+          "bundle_revision_hash": "5618ed56f82429db6389d4fb3b2724eb26740e4cecfbd2721ddf17d157e8682e",
+          "heading": "Вход в тетрадь",
+          "kind": "W",
+          "source_lines": [
+            1,
+            8
+          ],
+          "text_revision_hash": "a96fb5df6ac55b14481f29d3b426b21422b4166de147668f204adf498094a23f",
+          "unit_id": "ANS.L02.W00"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "dd09dec6419ce4f195373a6da5cc25b63ce7dfbd80851003735584607bef4976",
+          "heading": "0. Проверяем, что осталось от урока 01 (3 минуты)",
+          "kind": "W",
+          "source_lines": [
+            9,
+            20
+          ],
+          "text_revision_hash": "fef91426b962844efc64066083156ad3b5f118b4fe1aaf75e2dc0358d7292e47",
+          "unit_id": "ANS.L02.W01"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "54f63ea88146d376163ac5d564501fd331c98fab749c7466f360c5d895266c74",
+          "heading": "1. Различаем проблему и решение (4 минуты)",
+          "kind": "W",
+          "source_lines": [
+            21,
+            36
+          ],
+          "text_revision_hash": "5054806e9e11e8c5658d5597cf3b938c346a8745e8a5433fe3d2e3667c7920a3",
+          "unit_id": "ANS.L02.W02"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "f7cd3ec5deb71958ee631e0225e5b7cd66a2eab1b8b129f33bdb67b9ae7b74dd",
+          "heading": "2. Выбираем узкий профиль клиента — ICP (5 минут)",
+          "kind": "W",
+          "source_lines": [
+            37,
+            60
+          ],
+          "text_revision_hash": "25ac2f28a4589b4ae1ce1f27dc0981d0e9365a18f34696f934c10dd3c4d599aa",
+          "unit_id": "ANS.L02.W03"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "a3923c6f8917329315053684eab1938747c32a7fd11b9d5f5e460f356d969040",
+          "heading": "3. JTBD: пока только рабочая гипотеза (5 минут)",
+          "kind": "W",
+          "source_lines": [
+            61,
+            81
+          ],
+          "text_revision_hash": "3909cc62517c0fc97a4f478590a27f935b7491b4dc702603d323cac38b2955df",
+          "unit_id": "ANS.L02.W04"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "9d0840429bb18d26b84795c26b0174906548a866292efe6adcb054256ff4b7d0",
+          "heading": "4. Собеседование без «продажи в вопросе» (5 минут)",
+          "kind": "W",
+          "source_lines": [
+            82,
+            101
+          ],
+          "text_revision_hash": "dbb8ec9e1cb8e18e9089ab597056502b7f441c5b0be201b4dfcc44045bbd46a0",
+          "unit_id": "ANS.L02.W05"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "49bd780de198298367b1ae395b1397d308ef8744f3a68444a00a38298fceaa95",
+          "heading": "5. Читаем учебные заметки до запуска ИИ (6 минут)",
+          "kind": "W",
+          "source_lines": [
+            102,
+            127
+          ],
+          "text_revision_hash": "e828bd0a06d3749ad9c9844345c37d48af2dbc7aa868f272139facfdd529ab9c",
+          "unit_id": "ANS.L02.W06"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "6bd1e858357ce58373c86f8b62cd98ed6f55203a5a20be30cb4d4c1b31afd27b",
+          "heading": "6. ИИ помогает анализировать, но не создаёт доказательства (5 минут)",
+          "kind": "W",
+          "source_lines": [
+            128,
+            145
+          ],
+          "text_revision_hash": "5c8220ef9b87071986096d1658fc675b0e35ac51f8fcc32d7efff23c7df95a20",
+          "unit_id": "ANS.L02.W07"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "eb40673b273c91b01e9d6d57f5ee06dcb0d1f398e393d573e5a000bec9397734",
+          "heading": "7. Письмо-приглашение и план реальных разговоров (5 минут)",
+          "kind": "W",
+          "source_lines": [
+            146,
+            165
+          ],
+          "text_revision_hash": "edc65752dccd63f57fe415715bea6b5af277c961af252e29d5d4ab51877cf199",
+          "unit_id": "ANS.L02.W08"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "4a1b8d8e27aba29a2b5a25e46ab5f84af5e2209bd0d9e1052f717bd41ae36ce1",
+          "heading": "8. Текущее решение",
+          "kind": "W",
+          "source_lines": [
+            166,
+            181
+          ],
+          "text_revision_hash": "a3b7c44c227868d6e166a0f9fd0d99fc3cc14547217f2a16175241ba73891a64",
+          "unit_id": "ANS.L02.W09"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "3f2b3769320f43c551edcddec2991c5b076aa62e2d8020e7fbe0deb75af684c4",
+          "heading": "Домашнее задание",
+          "kind": "W",
+          "source_lines": [
+            182,
+            193
+          ],
+          "text_revision_hash": "89ef8277c34bcc67cfcf72d8398e2c8f75822e138d8649790025327d44d44973",
+          "unit_id": "ANS.L02.W10"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "dfa39e3a3ae32016beb3c5f588ee421f16b82cee0bc5bf32c2cb5d9862ba543d",
+          "heading": "Самопроверка",
+          "kind": "W",
+          "source_lines": [
+            194,
+            206
+          ],
+          "text_revision_hash": "a084c7333372108c1f940f9a2f34b06b6eb2842e3d50c13303287d2b66c29229",
+          "unit_id": "ANS.L02.W11"
+        }
+      ]
+    },
+    {
+      "editorial_state": "IN_REVIEW",
+      "education_status": "not_piloted",
+      "lesson_id": "ANS.L03",
+      "publication_ready": false,
+      "resources": [
+        {
+          "media_type": "text/markdown",
+          "path": "01_УЧЕБНАЯ_ГЛАВА.md",
+          "resource_id": "ANS.L03.STU",
+          "role": "student_chapter",
+          "sha256": "228b04c517e35764721caf9bea9e00c57fb387d6562544e374207f6c707b0b1d",
+          "size": 45397
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "02_РАБОЧАЯ_ТЕТРАДЬ.md",
+          "resource_id": "ANS.L03.WB",
+          "role": "workbook",
+          "sha256": "abf1baec3e2763f273d0221e01fe19f844ae211e692c9856a19c7f7a6a8a7071",
+          "size": 10720
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "06_ИСТОЧНИКИ_И_ОБНОВЛЕНИЯ.md",
+          "resource_id": "ANS.L03.SRCDOC",
+          "role": "sources",
+          "sha256": "f3cb635a4356ada402c8d1075123486fd17b1752da3c0fa4b3bfe6c782961cd0",
+          "size": 13065
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "PROMPTS.md",
+          "resource_id": "ANS.L03.APP1",
+          "role": "prompts",
+          "sha256": "150d25cadcf469044d5c945e8108d4deba59dd78d2d8cdc5d2b4a26f81ac03ff",
+          "size": 10705
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "data/README.md",
+          "resource_id": "ANS.L03.DOC2",
+          "role": "readme",
+          "sha256": "a9e977344b88ac7a062bbb9848511abd213739d2006a7c111c28fbcaa29dc992",
+          "size": 3363
+        },
+        {
+          "media_type": "text/csv",
+          "path": "data/buyer_reactions_12_unlabeled.csv",
+          "resource_id": "ANS.L03.DATA02",
+          "role": "dataset",
+          "sha256": "8f85cf459d53d5d211485b1511be25acd41cfa4197e37073eb1ca857ce3333ad",
+          "size": 2792
+        },
+        {
+          "duplicate_of": "ANS.L02.DATA02",
+          "media_type": "text/csv",
+          "path": "data/lesson02_interview_notes_12_unlabeled.csv",
+          "resource_id": "ANS.L03.DATA04",
+          "role": "dataset",
+          "sha256": "785f0d73ac5e35145defb218bc5c75ddea5dcbfa8ecb979382facfad9452ed4d",
+          "size": 8169
+        },
+        {
+          "media_type": "text/csv",
+          "path": "data/pilot_cases_20_unlabeled.csv",
+          "resource_id": "ANS.L03.DATA06",
+          "role": "dataset",
+          "sha256": "01bc3088fcb6fa3ebfcc18bb4891ab8d3cc8d0992687dc8aa5b2e386e3e35b4d",
+          "size": 2124
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "demo/example_lesson02_handoff.md",
+          "resource_id": "ANS.L03.EX02",
+          "role": "example",
+          "sha256": "4a488c311520d1cdffce898d9adc55e563260618dd949dc82d8ea6248d60aabe",
+          "size": 2342
+        },
+        {
+          "media_type": "image/png",
+          "path": "figures/fig01_evidence_ladder.png",
+          "resource_id": "ANS.L03.FIG01",
+          "role": "figure_png",
+          "sha256": "f30c8e7fb2b40daa4a75846efe27e15045e0571bb4457df7cd7d62e1af51a496",
+          "size": 67403,
+          "variant": "png"
+        },
+        {
+          "media_type": "image/svg+xml",
+          "path": "figures/fig01_evidence_ladder.svg",
+          "resource_id": "ANS.L03.FIG01",
+          "role": "figure_svg",
+          "sha256": "5ef7aeb6eccf03d2a5e669d92c4907c485db43f53a0a1aacbf92b7381eb6a513",
+          "size": 4977,
+          "variant": "svg"
+        },
+        {
+          "media_type": "image/png",
+          "path": "figures/fig02_concierge_pilot.png",
+          "resource_id": "ANS.L03.FIG02",
+          "role": "figure_png",
+          "sha256": "ce32981c83ec348ebfabb8e5504c2ccfd23a8f072d947f1c65e68fed0d29b8e1",
+          "size": 62395,
+          "variant": "png"
+        },
+        {
+          "media_type": "image/svg+xml",
+          "path": "figures/fig02_concierge_pilot.svg",
+          "resource_id": "ANS.L03.FIG02",
+          "role": "figure_svg",
+          "sha256": "c00939151200267338dbcdb4eb452c1fb03feaaeb37a6a046a313523e95a52e3",
+          "size": 7012,
+          "variant": "svg"
+        },
+        {
+          "media_type": "image/png",
+          "path": "figures/fig03_pilot_economics.png",
+          "resource_id": "ANS.L03.FIG03",
+          "role": "figure_png",
+          "sha256": "0f3015da5bd50df17c0951934c10984f20a5623fe7ef84a593dd1b0b794a9e96",
+          "size": 48451,
+          "variant": "png"
+        },
+        {
+          "media_type": "image/svg+xml",
+          "path": "figures/fig03_pilot_economics.svg",
+          "resource_id": "ANS.L03.FIG03",
+          "role": "figure_svg",
+          "sha256": "898bd7b1d809a62851f799d50b5a27dd41c2dfdb827cb85780f2afc65ad36699",
+          "size": 3584,
+          "variant": "svg"
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "templates/my-ai-startup/08_offer_one_page.md",
+          "resource_id": "ANS.L03.TPL01",
+          "role": "template",
+          "sha256": "0ff39ffaf329ed5051c00296b66c81351e6a497833200980cb38ca92c28f9209",
+          "size": 1468
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "templates/my-ai-startup/09_pilot_protocol.md",
+          "resource_id": "ANS.L03.TPL02",
+          "role": "template",
+          "sha256": "d4713651a7b7bbeebbbfe17e26688f3b8b2901ebcd7c7bb6b8cf5fa3a81c8225",
+          "size": 2373
+        },
+        {
+          "media_type": "text/csv",
+          "path": "templates/my-ai-startup/10_demand_log.csv",
+          "resource_id": "ANS.L03.TPL03",
+          "role": "template",
+          "sha256": "c9513c168ff52f5e7c2670d78e36fabe2130e530d3b7dc9ae47afbf22a5f1c42",
+          "size": 148
+        },
+        {
+          "media_type": "text/csv",
+          "path": "templates/my-ai-startup/11_pilot_cost_estimate.csv",
+          "resource_id": "ANS.L03.TPL04",
+          "role": "template",
+          "sha256": "a9256b6edc8e9b6794053c22c8ab9052df5896dccc39671ba350269e8744562f",
+          "size": 951
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "templates/my-ai-startup/12_next_step_decision.md",
+          "resource_id": "ANS.L03.TPL05",
+          "role": "template",
+          "sha256": "6e96c4890e3e366cf52bb32b6ed270c4074a96daf881a4e43efb205916125581",
+          "size": 1491
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "templates/my-ai-startup/README.md",
+          "resource_id": "ANS.L03.TPL06",
+          "role": "readme",
+          "sha256": "e6c06cfd87978856709cfd08141fe21cff54e5d03b70cd6f905e438fca342401",
+          "size": 1582
+        }
+      ],
+      "student_units": [
+        {
+          "assets": [],
+          "bundle_revision_hash": "c83d7651cd693f4790bf7d8ee9424bf15f4c127d350eeaffe8064d56cc08fcdf",
+          "heading": "Паспорт урока",
+          "kind": "S",
+          "source_lines": [
+            1,
+            10
+          ],
+          "text_revision_hash": "27d8d502f1f0e9f06e398872fc7a488422dda73f05b3e65ea072c21c3fa0c5e2",
+          "unit_id": "ANS.L03.S00"
+        },
+        {
+          "assets": [
+            {
+              "path": "figures/fig01_evidence_ladder.png",
+              "resource_id": "ANS.L03.FIG01",
+              "sha256": "f30c8e7fb2b40daa4a75846efe27e15045e0571bb4457df7cd7d62e1af51a496"
+            },
+            {
+              "path": "figures/fig01_evidence_ladder.svg",
+              "resource_id": "ANS.L03.FIG01",
+              "sha256": "5ef7aeb6eccf03d2a5e669d92c4907c485db43f53a0a1aacbf92b7381eb6a513"
+            }
+          ],
+          "bundle_revision_hash": "378fc9f97c4c87e3aab3369ed988c73e1ff3c52149e3a4cb29540a35cbd06102",
+          "heading": "Чему вы научитесь",
+          "kind": "S",
+          "source_lines": [
+            11,
+            18
+          ],
+          "text_revision_hash": "e944da50aa5f18475fc0397fba4f86cb9896943730a505e960eefe259b205cbb",
+          "unit_id": "ANS.L03.S01"
+        },
+        {
+          "assets": [
+            {
+              "path": "data/buyer_reactions_12_unlabeled.csv",
+              "resource_id": "ANS.L03.DATA02",
+              "sha256": "8f85cf459d53d5d211485b1511be25acd41cfa4197e37073eb1ca857ce3333ad"
+            }
+          ],
+          "bundle_revision_hash": "f3082b6e5db3cb898d23b67258b7bef05b7ed2678b439af87757dfb18a7a6631",
+          "heading": "1. Сцена: «Идея понравилась всем»",
+          "kind": "S",
+          "source_lines": [
+            19,
+            34
+          ],
+          "text_revision_hash": "8387bfbabff5c4efd140ce9d33d87ca3abb2193aaba5e7e1cf2a26cf66479981",
+          "unit_id": "ANS.L03.S02"
+        },
+        {
+          "assets": [
+            {
+              "path": "figures/fig01_evidence_ladder.png",
+              "resource_id": "ANS.L03.FIG01",
+              "sha256": "f30c8e7fb2b40daa4a75846efe27e15045e0571bb4457df7cd7d62e1af51a496"
+            },
+            {
+              "path": "figures/fig01_evidence_ladder.svg",
+              "resource_id": "ANS.L03.FIG01",
+              "sha256": "5ef7aeb6eccf03d2a5e669d92c4907c485db43f53a0a1aacbf92b7381eb6a513"
+            },
+            {
+              "path": "templates/my-ai-startup/10_demand_log.csv",
+              "resource_id": "ANS.L03.TPL03",
+              "sha256": "c9513c168ff52f5e7c2670d78e36fabe2130e530d3b7dc9ae47afbf22a5f1c42"
+            }
+          ],
+          "bundle_revision_hash": "21821c481f3aa053386e4fba048391c8c625fb14115c228d0945224ee74392b5",
+          "heading": "2. Четыре ступени: от интереса к результату",
+          "kind": "S",
+          "source_lines": [
+            35,
+            57
+          ],
+          "text_revision_hash": "afaa402e52b56e66f812173be66e85c98b6b95aacd5d549768226698a5d492e3",
+          "unit_id": "ANS.L03.S03"
+        },
+        {
+          "assets": [
+            {
+              "path": "templates/my-ai-startup/08_offer_one_page.md",
+              "resource_id": "ANS.L03.TPL01",
+              "sha256": "0ff39ffaf329ed5051c00296b66c81351e6a497833200980cb38ca92c28f9209"
+            }
+          ],
+          "bundle_revision_hash": "1184da41cb74d2c600ca73ac78267a4a253ed45e0a66e21868970c1c3d534ad5",
+          "heading": "3. Вместо программы — проверяемый оффер",
+          "kind": "S",
+          "source_lines": [
+            58,
+            83
+          ],
+          "text_revision_hash": "db48b5750a485d5c4da165961e195e9f7a9a101631812fb88940324179e69a3f",
+          "unit_id": "ANS.L03.S04"
+        },
+        {
+          "assets": [
+            {
+              "path": "figures/fig02_concierge_pilot.png",
+              "resource_id": "ANS.L03.FIG02",
+              "sha256": "ce32981c83ec348ebfabb8e5504c2ccfd23a8f072d947f1c65e68fed0d29b8e1"
+            },
+            {
+              "path": "figures/fig02_concierge_pilot.svg",
+              "resource_id": "ANS.L03.FIG02",
+              "sha256": "c00939151200267338dbcdb4eb452c1fb03feaaeb37a6a046a313523e95a52e3"
+            },
+            {
+              "path": "templates/my-ai-startup/09_pilot_protocol.md",
+              "resource_id": "ANS.L03.TPL02",
+              "sha256": "d4713651a7b7bbeebbbfe17e26688f3b8b2901ebcd7c7bb6b8cf5fa3a81c8225"
+            }
+          ],
+          "bundle_revision_hash": "9271946b33141a35692b4f7a9645b20a4da7db2b7df83fd1f1978f35f63ee9a2",
+          "heading": "4. Три пути к MVP без большой разработки",
+          "kind": "S",
+          "source_lines": [
+            84,
+            111
+          ],
+          "text_revision_hash": "2f7559d64766fc5ec8a2e599bd9f3dc9a3495b498701b7c07b176d7d209402be",
+          "unit_id": "ANS.L03.S05"
+        },
+        {
+          "assets": [
+            {
+              "path": "templates/my-ai-startup/09_pilot_protocol.md",
+              "resource_id": "ANS.L03.TPL02",
+              "sha256": "d4713651a7b7bbeebbbfe17e26688f3b8b2901ebcd7c7bb6b8cf5fa3a81c8225"
+            }
+          ],
+          "bundle_revision_hash": "9762dd57e980cf1a3b6ad8de068d058fc9782faa80785a589c35f5606d3fef79",
+          "heading": "5. Что такое «продать пилот», а не «продать надежду»",
+          "kind": "S",
+          "source_lines": [
+            112,
+            128
+          ],
+          "text_revision_hash": "16a2a131752609336dd4e205a9673a1890db41d4b05ac5c28a135173bee5cc4a",
+          "unit_id": "ANS.L03.S06"
+        },
+        {
+          "assets": [
+            {
+              "path": "templates/my-ai-startup/10_demand_log.csv",
+              "resource_id": "ANS.L03.TPL03",
+              "sha256": "c9513c168ff52f5e7c2670d78e36fabe2130e530d3b7dc9ae47afbf22a5f1c42"
+            },
+            {
+              "path": "templates/my-ai-startup/12_next_step_decision.md",
+              "resource_id": "ANS.L03.TPL05",
+              "sha256": "6e96c4890e3e366cf52bb32b6ed270c4074a96daf881a4e43efb205916125581"
+            }
+          ],
+          "bundle_revision_hash": "60574756c039782cf22e0c6ac97a81a72662ac1ecc66d8324c5118ae6ed62802",
+          "heading": "6. Как проверять готовность платить",
+          "kind": "S",
+          "source_lines": [
+            129,
+            155
+          ],
+          "text_revision_hash": "f58faa3cd84ff20eea180f9a48a38197921936ae39b96ff9ccf899dd4d609d3b",
+          "unit_id": "ANS.L03.S07"
+        },
+        {
+          "assets": [
+            {
+              "path": "figures/fig03_pilot_economics.png",
+              "resource_id": "ANS.L03.FIG03",
+              "sha256": "0f3015da5bd50df17c0951934c10984f20a5623fe7ef84a593dd1b0b794a9e96"
+            },
+            {
+              "path": "figures/fig03_pilot_economics.svg",
+              "resource_id": "ANS.L03.FIG03",
+              "sha256": "898bd7b1d809a62851f799d50b5a27dd41c2dfdb827cb85780f2afc65ad36699"
+            },
+            {
+              "path": "templates/my-ai-startup/11_pilot_cost_estimate.csv",
+              "resource_id": "ANS.L03.TPL04",
+              "sha256": "a9256b6edc8e9b6794053c22c8ab9052df5896dccc39671ba350269e8744562f"
+            }
+          ],
+          "bundle_revision_hash": "c6d9f429c45a21864c72e5e2138e8837abef8dd0f47047753535774e6b6408f7",
+          "heading": "7. Первая экономика: прибыль — не только «цена минус токены»",
+          "kind": "S",
+          "source_lines": [
+            156,
+            179
+          ],
+          "text_revision_hash": "3d9f0bbb0d122c0fa57184054b5aa28c3bc97fdcb1137c67530d637da4dfa981",
+          "unit_id": "ANS.L03.S08"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "c7751e2f25d03dc833f712d639713aace741333233839082ae4a99e06514be15",
+          "heading": "8. Как применять ИИ на стадии проверки идеи",
+          "kind": "S",
+          "source_lines": [
+            180,
+            208
+          ],
+          "text_revision_hash": "dfd03861f2f6428b7e99d2e7fb9799b963b530f0c94732d12410f89dbd8f955a",
+          "unit_id": "ANS.L03.S09"
+        },
+        {
+          "assets": [
+            {
+              "path": "data/buyer_reactions_12_unlabeled.csv",
+              "resource_id": "ANS.L03.DATA02",
+              "sha256": "8f85cf459d53d5d211485b1511be25acd41cfa4197e37073eb1ca857ce3333ad"
+            }
+          ],
+          "bundle_revision_hash": "9528482e323a1461f6a8cfda2ed8611cc4b1282697e4783051f95620a744911d",
+          "heading": "9. Демонстрационный разбор: 12 ответов на предложение",
+          "kind": "S",
+          "source_lines": [
+            209,
+            226
+          ],
+          "text_revision_hash": "a9b5b0b71980c92c8946e3b989ff246fe8b9378ead4b0c24a8ac769cb8fbf1c1",
+          "unit_id": "ANS.L03.S10"
+        },
+        {
+          "assets": [
+            {
+              "path": "data/buyer_reactions_12_unlabeled.csv",
+              "resource_id": "ANS.L03.DATA02",
+              "sha256": "8f85cf459d53d5d211485b1511be25acd41cfa4197e37073eb1ca857ce3333ad"
+            },
+            {
+              "path": "templates/my-ai-startup/08_offer_one_page.md",
+              "resource_id": "ANS.L03.TPL01",
+              "sha256": "0ff39ffaf329ed5051c00296b66c81351e6a497833200980cb38ca92c28f9209"
+            },
+            {
+              "path": "templates/my-ai-startup/09_pilot_protocol.md",
+              "resource_id": "ANS.L03.TPL02",
+              "sha256": "d4713651a7b7bbeebbbfe17e26688f3b8b2901ebcd7c7bb6b8cf5fa3a81c8225"
+            },
+            {
+              "path": "templates/my-ai-startup/10_demand_log.csv",
+              "resource_id": "ANS.L03.TPL03",
+              "sha256": "c9513c168ff52f5e7c2670d78e36fabe2130e530d3b7dc9ae47afbf22a5f1c42"
+            },
+            {
+              "path": "templates/my-ai-startup/11_pilot_cost_estimate.csv",
+              "resource_id": "ANS.L03.TPL04",
+              "sha256": "a9256b6edc8e9b6794053c22c8ab9052df5896dccc39671ba350269e8744562f"
+            },
+            {
+              "path": "templates/my-ai-startup/12_next_step_decision.md",
+              "resource_id": "ANS.L03.TPL05",
+              "sha256": "6e96c4890e3e366cf52bb32b6ed270c4074a96daf881a4e43efb205916125581"
+            }
+          ],
+          "bundle_revision_hash": "4cc90bc50f0ec6cbbc59603269462ee53d8b718b1fcb147ad4104fba42002438",
+          "heading": "10. Практика: соберите пилот, не создавая SaaS",
+          "kind": "S",
+          "source_lines": [
+            227,
+            250
+          ],
+          "text_revision_hash": "d9177a2671a9076ba471ed206073d34c1ff53696441c67a8386e01a9d90c1052",
+          "unit_id": "ANS.L03.S11"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "e7d6169001466b1426fedd81cc227d0111313a19f49a0b9b2c3e4dd442363c04",
+          "heading": "11. Проверьте свой результат",
+          "kind": "S",
+          "source_lines": [
+            251,
+            267
+          ],
+          "text_revision_hash": "7557e2ac4e29826bc3523d0d3c42c87345189936e0ec8aa241629de44c47849b",
+          "unit_id": "ANS.L03.S12"
+        },
+        {
+          "assets": [
+            {
+              "path": "templates/my-ai-startup/09_pilot_protocol.md",
+              "resource_id": "ANS.L03.TPL02",
+              "sha256": "d4713651a7b7bbeebbbfe17e26688f3b8b2901ebcd7c7bb6b8cf5fa3a81c8225"
+            }
+          ],
+          "bundle_revision_hash": "d0494f29b9f5ecdf4052b922a5013feb311f0c97483981144f914299cf68e9f2",
+          "heading": "12. Риски, данные и честная коммуникация",
+          "kind": "S",
+          "source_lines": [
+            268,
+            279
+          ],
+          "text_revision_hash": "a04c064bec3b4817052bdfe68009824d7f938c86d7b2082417c46d56b5d9edb9",
+          "unit_id": "ANS.L03.S13"
+        },
+        {
+          "assets": [
+            {
+              "path": "templates/my-ai-startup/08_offer_one_page.md",
+              "resource_id": "ANS.L03.TPL01",
+              "sha256": "0ff39ffaf329ed5051c00296b66c81351e6a497833200980cb38ca92c28f9209"
+            }
+          ],
+          "bundle_revision_hash": "8baf5ead0a7b23f3fd8d03050826f8aaa3598cf1bfd55b2ff30f27d8b1e615bc",
+          "heading": "13. Самостоятельная работа",
+          "kind": "S",
+          "source_lines": [
+            280,
+            289
+          ],
+          "text_revision_hash": "476a4c0c06be64092962ed171ac218a742acc8d69b0eb5216bf73ab9aa358f9f",
+          "unit_id": "ANS.L03.S14"
+        },
+        {
+          "assets": [
+            {
+              "path": "templates/my-ai-startup/08_offer_one_page.md",
+              "resource_id": "ANS.L03.TPL01",
+              "sha256": "0ff39ffaf329ed5051c00296b66c81351e6a497833200980cb38ca92c28f9209"
+            },
+            {
+              "path": "templates/my-ai-startup/09_pilot_protocol.md",
+              "resource_id": "ANS.L03.TPL02",
+              "sha256": "d4713651a7b7bbeebbbfe17e26688f3b8b2901ebcd7c7bb6b8cf5fa3a81c8225"
+            },
+            {
+              "path": "templates/my-ai-startup/10_demand_log.csv",
+              "resource_id": "ANS.L03.TPL03",
+              "sha256": "c9513c168ff52f5e7c2670d78e36fabe2130e530d3b7dc9ae47afbf22a5f1c42"
+            },
+            {
+              "path": "templates/my-ai-startup/11_pilot_cost_estimate.csv",
+              "resource_id": "ANS.L03.TPL04",
+              "sha256": "a9256b6edc8e9b6794053c22c8ab9052df5896dccc39671ba350269e8744562f"
+            },
+            {
+              "path": "templates/my-ai-startup/12_next_step_decision.md",
+              "resource_id": "ANS.L03.TPL05",
+              "sha256": "6e96c4890e3e366cf52bb32b6ed270c4074a96daf881a4e43efb205916125581"
+            },
+            {
+              "path": "templates/my-ai-startup/README.md",
+              "resource_id": "ANS.L03.TPL06",
+              "sha256": "e6c06cfd87978856709cfd08141fe21cff54e5d03b70cd6f905e438fca342401"
+            }
+          ],
+          "bundle_revision_hash": "765439362c0ac43794041859e07dd480b0524a59345b8230f079ed43dbd11a71",
+          "heading": "14. Что остаётся в папке стартапа",
+          "kind": "S",
+          "source_lines": [
+            290,
+            318
+          ],
+          "text_revision_hash": "8bf0292308c16908c89ad9e15597a88972f275417f71273de1e218b02778eb9e",
+          "unit_id": "ANS.L03.S15"
+        }
+      ],
+      "title": "Как проверить бизнес-идею до разработки продукта",
+      "workbook_units": [
+        {
+          "assets": [],
+          "bundle_revision_hash": "aecce98a13321b1d914de57f4f3938142be0fefd17da5e275e1ea6d0d15fca52",
+          "heading": "Вход в тетрадь",
+          "kind": "W",
+          "source_lines": [
+            1,
+            7
+          ],
+          "text_revision_hash": "71d2d8c98fa384d4667e81dea371a3926782e7294f21a129f83710ca3a87a4da",
+          "unit_id": "ANS.L03.W00"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "030917e257cb8361601a856d7ace2d8ba212d45f8c1bb94bd2170d4f65ff20f1",
+          "heading": "Задание 1. Назовите силу сигнала (4 минуты)",
+          "kind": "W",
+          "source_lines": [
+            8,
+            22
+          ],
+          "text_revision_hash": "7bc1104df120bdc0fb9af1fa25c84bf62ec11bc1c4922215e6719b995d4ca713",
+          "unit_id": "ANS.L03.W01"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "05b1085e9204daf177794b965ad285dde0283a4938a639164e33cca38c907d96",
+          "heading": "Задание 2. Сформулируйте минимальный оффер (5 минут)",
+          "kind": "W",
+          "source_lines": [
+            23,
+            41
+          ],
+          "text_revision_hash": "f7bf74d3362ff06c4646cbcd16b0f6ff3edb50b1c78216ce07f3d41ee1dda4d3",
+          "unit_id": "ANS.L03.W02"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "3c8d82ab148ac1839cfa5e9fe9ad4bf67945bcce1fb6f99ce5e9075dc45825f6",
+          "heading": "Задание 3. Соберите «ручной» пилот (5 минут)",
+          "kind": "W",
+          "source_lines": [
+            42,
+            56
+          ],
+          "text_revision_hash": "d7f6a83a384174e769d260c5fa9d4c60be3f0a43690ec6189e6548d7853b28e5",
+          "unit_id": "ANS.L03.W03"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "5f523cad11d9e49c2c026d7c5cad2531cef002490d00e0a7b8b5333bf2fb6967",
+          "heading": "Задание 4. Разберите коммерческие ответы вручную (7 минут)",
+          "kind": "W",
+          "source_lines": [
+            57,
+            71
+          ],
+          "text_revision_hash": "6edb5578984bd693e0a807b1b65c90c767870a8df97e90e12ab85877368b4d36",
+          "unit_id": "ANS.L03.W04"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "43896de51238b5aebd614d6b8202214616a947a2b30c8ef8d5180537cb69f11d",
+          "heading": "Задание 5. Проверьте ответ ИИ (4 минуты)",
+          "kind": "W",
+          "source_lines": [
+            72,
+            83
+          ],
+          "text_revision_hash": "68b78a3c9c6a5ca65491b02e8390a07d8dd935865467285bb8ab6d5e8877bf69",
+          "unit_id": "ANS.L03.W05"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "bec2b2bba5914fbd98de926d6d0626232d114cb70207209f09cf9117dc0e8145",
+          "heading": "Задание 6. Рассчитайте пилот (4 минуты)",
+          "kind": "W",
+          "source_lines": [
+            84,
+            99
+          ],
+          "text_revision_hash": "801e26cbe2ad9dbc6a2561dee0f8da6df2af30219a7881c24c0d1fc637e2fab7",
+          "unit_id": "ANS.L03.W06"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "aa0aca1e7049da0bf6325e43ea9018ade2e3168e1721adef319b5172ca436b9b",
+          "heading": "Задание 7. Предварительно объявите критерий решения (3 минуты)",
+          "kind": "W",
+          "source_lines": [
+            100,
+            107
+          ],
+          "text_revision_hash": "a5a929a623d4983584d0ce08ddc52c9126c2222f200e05c39f6f79af8840fbcd",
+          "unit_id": "ANS.L03.W07"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "a003b97743620452d9fad81fcdeb5c277433dbba2486d290a271238f614c6205",
+          "heading": "Задание 8. Примите честное решение (3 минуты)",
+          "kind": "W",
+          "source_lines": [
+            108,
+            124
+          ],
+          "text_revision_hash": "f456daa8209d52d7da48619d1028de3e92bbe3fc5feca3507c9cc81c6f759b31",
+          "unit_id": "ANS.L03.W08"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "167833833ec6f950264b75a149954918c515eccee139a3ab8fd15ebb26ccfc11",
+          "heading": "Домашняя работа (30–45 минут активных действий)",
+          "kind": "W",
+          "source_lines": [
+            125,
+            130
+          ],
+          "text_revision_hash": "3eef0d2c542b3bc42c8ba3ad5759d91499ea39f3f130aa5f645f02df4e4a541d",
+          "unit_id": "ANS.L03.W09"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "713eebcde0763832905df9047d773f9ad4f10f83f5b962dc4eca9cfe59b0078e",
+          "heading": "Самооценка по окончании",
+          "kind": "W",
+          "source_lines": [
+            131,
+            140
+          ],
+          "text_revision_hash": "42027137f09eb76765f5609451e936411bb779931a3bd69d5d4e9985ae2d0b47",
+          "unit_id": "ANS.L03.W10"
+        }
+      ]
+    },
+    {
+      "editorial_state": "IN_REVIEW",
+      "education_status": "not_piloted",
+      "lesson_id": "ANS.L04",
+      "publication_ready": false,
+      "resources": [
+        {
+          "media_type": "text/markdown",
+          "path": "01_УЧЕБНАЯ_ГЛАВА.md",
+          "resource_id": "ANS.L04.STU",
+          "role": "student_chapter",
+          "sha256": "e6b15e0a739e4c1adb53c7e6c8fedfa000d3b00aadbc88d2a7cb263438dad6fb",
+          "size": 42278
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "02_РАБОЧАЯ_ТЕТРАДЬ.md",
+          "resource_id": "ANS.L04.WB",
+          "role": "workbook",
+          "sha256": "f03d0ad47f0fc422edff1d681baee644667cf69fc5e971e1daa212aacdce8493",
+          "size": 13086
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "PROMPTS.md",
+          "resource_id": "ANS.L04.APP1",
+          "role": "prompts",
+          "sha256": "02011fbeda8b27608b6eb1ef7d6141921492f458b8db322afc7bc7a4524e3034",
+          "size": 10095
+        },
+        {
+          "media_type": "text/csv",
+          "path": "data/adversarial_requests_6.csv",
+          "resource_id": "ANS.L04.DATA01",
+          "role": "dataset",
+          "sha256": "3feeee1b326b4757604b3427aead37a4edf14509dbf6d054618f00261b5c7c13",
+          "size": 1074
+        },
+        {
+          "duplicate_of": "ANS.L03.DATA06",
+          "media_type": "text/csv",
+          "path": "data/pilot_cases_20_unlabeled.csv",
+          "resource_id": "ANS.L04.DATA04",
+          "role": "dataset",
+          "sha256": "01bc3088fcb6fa3ebfcc18bb4891ab8d3cc8d0992687dc8aa5b2e386e3e35b4d",
+          "size": 2124
+        },
+        {
+          "execution_mode": "offline",
+          "media_type": "text/x-python",
+          "path": "demo/validate_report.py",
+          "resource_id": "ANS.L04.CODE05",
+          "role": "demo_code",
+          "sha256": "7697c48aeef6f6674ebc8cd76566420829be19e32b20465abec773701910eb2e",
+          "size": 6169
+        },
+        {
+          "duplicate_of": "ANS.L03.TPL01",
+          "media_type": "text/markdown",
+          "path": "examples/08_offer_one_page_from_lesson03.md",
+          "resource_id": "ANS.L04.EX03",
+          "role": "example",
+          "sha256": "0ff39ffaf329ed5051c00296b66c81351e6a497833200980cb38ca92c28f9209",
+          "size": 1468
+        },
+        {
+          "duplicate_of": "ANS.L03.TPL02",
+          "media_type": "text/markdown",
+          "path": "examples/09_pilot_protocol_from_lesson03.md",
+          "resource_id": "ANS.L04.EX04",
+          "role": "example",
+          "sha256": "d4713651a7b7bbeebbbfe17e26688f3b8b2901ebcd7c7bb6b8cf5fa3a81c8225",
+          "size": 2373
+        },
+        {
+          "duplicate_of": "ANS.L03.EX02",
+          "media_type": "text/markdown",
+          "path": "examples/lesson02_handoff.md",
+          "resource_id": "ANS.L04.EX05",
+          "role": "example",
+          "sha256": "4a488c311520d1cdffce898d9adc55e563260618dd949dc82d8ea6248d60aabe",
+          "size": 2342
+        },
+        {
+          "media_type": "image/png",
+          "path": "figures/fig01_one_agent_flow.png",
+          "resource_id": "ANS.L04.FIG01",
+          "role": "figure_png",
+          "sha256": "db876008be9ecb35c634dcaeac48fe9ca1ff0cf09ccc79a7dd62f61de7166ed8",
+          "size": 75080,
+          "variant": "png"
+        },
+        {
+          "media_type": "image/svg+xml",
+          "path": "figures/fig01_one_agent_flow.svg",
+          "resource_id": "ANS.L04.FIG01",
+          "role": "figure_svg",
+          "sha256": "13f072c62f03f658064549d67b8c828b3e9703e1f75b5f4b58088b4914243c36",
+          "size": 6134,
+          "variant": "svg"
+        },
+        {
+          "media_type": "image/png",
+          "path": "figures/fig02_permission_matrix.png",
+          "resource_id": "ANS.L04.FIG02",
+          "role": "figure_png",
+          "sha256": "f4d80fd4bf2be5075542da289b405781440973ae429bbf07499aa0586113e181",
+          "size": 69088,
+          "variant": "png"
+        },
+        {
+          "media_type": "image/svg+xml",
+          "path": "figures/fig02_permission_matrix.svg",
+          "resource_id": "ANS.L04.FIG02",
+          "role": "figure_svg",
+          "sha256": "f986ad37114de0b3cf96a72018f0113662220101884934486afb4afdc7e1cb46",
+          "size": 4203,
+          "variant": "svg"
+        },
+        {
+          "media_type": "image/png",
+          "path": "figures/fig03_quality_loop.png",
+          "resource_id": "ANS.L04.FIG03",
+          "role": "figure_png",
+          "sha256": "80541df27bc95d4230417a2c6e6a4038d7e204ddae10e089dc4bc7e011daaa69",
+          "size": 57275,
+          "variant": "png"
+        },
+        {
+          "media_type": "image/svg+xml",
+          "path": "figures/fig03_quality_loop.svg",
+          "resource_id": "ANS.L04.FIG03",
+          "role": "figure_svg",
+          "sha256": "73f727e40ced5ebfcb816dd791d92faf2eb2128916f71f5fb12a08db71740735",
+          "size": 5080,
+          "variant": "svg"
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "optional_live/README.md",
+          "resource_id": "ANS.L04.EX07",
+          "role": "optional_live",
+          "sha256": "83552714f26608e991a631e0fa8793a8a536cb3e519034882797e797080eb8d8",
+          "size": 3712
+        },
+        {
+          "execution_mode": "external_api",
+          "media_type": "text/x-python",
+          "path": "optional_live/agents_sdk_readonly.py",
+          "resource_id": "ANS.L04.CODE06",
+          "role": "optional_live",
+          "sha256": "31b1e21def390275a8690fac11d6885c48204e656a54ba814f803be48ad6aa3f",
+          "size": 2839
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "public/06_ИСТОЧНИКИ_И_ОБНОВЛЕНИЯ.md",
+          "resource_id": "ANS.L04.PUB01",
+          "role": "sources",
+          "sha256": "3d8e8a8e32d4ab20dcd4fcb7d54e55396af18ce82b6576f897f825898bcc97bc",
+          "size": 7485
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "templates/my-ai-startup/13_agent_role_card.md",
+          "resource_id": "ANS.L04.TPL01",
+          "role": "template",
+          "sha256": "b1de1afca5c6175f91b7fe0b88d0e777c25343116e28ea57ae62fb53047ff53a",
+          "size": 1436
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "templates/my-ai-startup/14_agent_task_contract.md",
+          "resource_id": "ANS.L04.TPL02",
+          "role": "template",
+          "sha256": "0aa20834c2a00677f82ad85bd0d638e49fdc063feb1c5ff1eba9ce2da1c9e010",
+          "size": 1710
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "templates/my-ai-startup/15_agent_tool_policy.md",
+          "resource_id": "ANS.L04.TPL03",
+          "role": "template",
+          "sha256": "f7bdb1238b08babfff233ebf8ebc0a18971806ec44b6ed1ae29555be7caa6512",
+          "size": 2649
+        },
+        {
+          "media_type": "text/csv",
+          "path": "templates/my-ai-startup/16_agent_run_log.csv",
+          "resource_id": "ANS.L04.TPL04",
+          "role": "template",
+          "sha256": "7f6c6bf949d1d79821f78a4477db3ae2fd0c86beac8ea24ac37b2a435f6d1d46",
+          "size": 156
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "templates/my-ai-startup/17_agent_review.md",
+          "resource_id": "ANS.L04.TPL05",
+          "role": "template",
+          "sha256": "6913e4f7a24a6d5c8c8890606d9242c27358fb80fb5763d4c2fc6678aad1af43",
+          "size": 1815
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "templates/my-ai-startup/README.md",
+          "resource_id": "ANS.L04.TPL06",
+          "role": "template",
+          "sha256": "c1732ee5caf5c4ba682a019048afc976b3bff65ba232381b9db88f94812f6db7",
+          "size": 1479
+        },
+        {
+          "media_type": "text/markdown",
+          "path": "templates/my-ai-startup/agent/AGENT_INSTRUCTIONS.md",
+          "resource_id": "ANS.L04.TPL07",
+          "role": "template",
+          "sha256": "a8de39da8b12871f8df4678eee5e7356a4a75c1f53cc82141e1871d12c8e3526",
+          "size": 1896
+        }
+      ],
+      "student_units": [
+        {
+          "assets": [
+            {
+              "path": "templates/my-ai-startup/13_agent_role_card.md",
+              "resource_id": "ANS.L04.TPL01",
+              "sha256": "b1de1afca5c6175f91b7fe0b88d0e777c25343116e28ea57ae62fb53047ff53a"
+            },
+            {
+              "path": "templates/my-ai-startup/14_agent_task_contract.md",
+              "resource_id": "ANS.L04.TPL02",
+              "sha256": "0aa20834c2a00677f82ad85bd0d638e49fdc063feb1c5ff1eba9ce2da1c9e010"
+            },
+            {
+              "path": "templates/my-ai-startup/15_agent_tool_policy.md",
+              "resource_id": "ANS.L04.TPL03",
+              "sha256": "f7bdb1238b08babfff233ebf8ebc0a18971806ec44b6ed1ae29555be7caa6512"
+            },
+            {
+              "path": "templates/my-ai-startup/16_agent_run_log.csv",
+              "resource_id": "ANS.L04.TPL04",
+              "sha256": "7f6c6bf949d1d79821f78a4477db3ae2fd0c86beac8ea24ac37b2a435f6d1d46"
+            },
+            {
+              "path": "templates/my-ai-startup/17_agent_review.md",
+              "resource_id": "ANS.L04.TPL05",
+              "sha256": "6913e4f7a24a6d5c8c8890606d9242c27358fb80fb5763d4c2fc6678aad1af43"
+            }
+          ],
+          "bundle_revision_hash": "d8c02c1ae3c06064bea9baa75c34233379e0f2a72996c68deee6e037e3506e7f",
+          "heading": "Паспорт урока",
+          "kind": "S",
+          "source_lines": [
+            1,
+            11
+          ],
+          "text_revision_hash": "f83343e5cf03cfec4565dd70190aee8288c3d20f2e352ada35357e340866cc56",
+          "unit_id": "ANS.L04.S00"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "c2373afa304d83d2f14113d8cd4628e8f675b6d7043ceb94abe985f245f79ef5",
+          "heading": "Чему вы научитесь",
+          "kind": "S",
+          "source_lines": [
+            12,
+            15
+          ],
+          "text_revision_hash": "af6fbada520a4ae9634e196b6c2d29475f47fc849e3deecad8de96fd1c162da5",
+          "unit_id": "ANS.L04.S01"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "ebaa1e92d2c028014a710c2f197b4ea3c53245eb7cfddbd11332db0e7a265663",
+          "heading": "1. Сцена: «У нас будет шесть виртуальных сотрудников!»",
+          "kind": "S",
+          "source_lines": [
+            16,
+            27
+          ],
+          "text_revision_hash": "2a1592f7ffab4675bd8e7a9da92667fad4e192aa1b9aa04fb99fdfd49b0a68c7",
+          "unit_id": "ANS.L04.S02"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "3f886e188f15a641f6d56c3f4ad5635c9741630365d620c3ff87251e332663c9",
+          "heading": "2. Пять разных вещей, которые часто называют «ИИ»",
+          "kind": "S",
+          "source_lines": [
+            28,
+            53
+          ],
+          "text_revision_hash": "71bbc1cd7e786bc4c534e633794811be0093df87e3948fda17c62dcdfb734851",
+          "unit_id": "ANS.L04.S03"
+        },
+        {
+          "assets": [
+            {
+              "path": "figures/fig01_one_agent_flow.png",
+              "resource_id": "ANS.L04.FIG01",
+              "sha256": "db876008be9ecb35c634dcaeac48fe9ca1ff0cf09ccc79a7dd62f61de7166ed8"
+            },
+            {
+              "path": "figures/fig01_one_agent_flow.svg",
+              "resource_id": "ANS.L04.FIG01",
+              "sha256": "13f072c62f03f658064549d67b8c828b3e9703e1f75b5f4b58088b4914243c36"
+            }
+          ],
+          "bundle_revision_hash": "ee3a8af8174d477ee5f72a8b76569268ec5eaa2e2d3da8f82e61f19b877e852a",
+          "heading": "3. Что может означать «команда из одного человека»",
+          "kind": "S",
+          "source_lines": [
+            54,
+            69
+          ],
+          "text_revision_hash": "4e2a9248f8aeb50ee18956293539afa05c6ef3414425877f6473ebcb1d7a69e0",
+          "unit_id": "ANS.L04.S04"
+        },
+        {
+          "assets": [
+            {
+              "path": "templates/my-ai-startup/14_agent_task_contract.md",
+              "resource_id": "ANS.L04.TPL02",
+              "sha256": "0aa20834c2a00677f82ad85bd0d638e49fdc063feb1c5ff1eba9ce2da1c9e010"
+            },
+            {
+              "path": "templates/my-ai-startup/15_agent_tool_policy.md",
+              "resource_id": "ANS.L04.TPL03",
+              "sha256": "f7bdb1238b08babfff233ebf8ebc0a18971806ec44b6ed1ae29555be7caa6512"
+            }
+          ],
+          "bundle_revision_hash": "1f9e8e777bf2f3504101e9b1c383840163c18eb57a2ed88a374abca8fd7b2a71",
+          "heading": "4. «Контракт задачи»: как нанять одного агента на работу",
+          "kind": "S",
+          "source_lines": [
+            70,
+            94
+          ],
+          "text_revision_hash": "2004e073b47c331d59d4e70bac2c6b1da493bbf73830a299e74f355c06a174b2",
+          "unit_id": "ANS.L04.S05"
+        },
+        {
+          "assets": [
+            {
+              "path": "data/adversarial_requests_6.csv",
+              "resource_id": "ANS.L04.DATA01",
+              "sha256": "3feeee1b326b4757604b3427aead37a4edf14509dbf6d054618f00261b5c7c13"
+            },
+            {
+              "path": "figures/fig02_permission_matrix.png",
+              "resource_id": "ANS.L04.FIG02",
+              "sha256": "f4d80fd4bf2be5075542da289b405781440973ae429bbf07499aa0586113e181"
+            },
+            {
+              "path": "figures/fig02_permission_matrix.svg",
+              "resource_id": "ANS.L04.FIG02",
+              "sha256": "f986ad37114de0b3cf96a72018f0113662220101884934486afb4afdc7e1cb46"
+            }
+          ],
+          "bundle_revision_hash": "9782b5d4efc5d3350fcefba46f63a02999fb42b1be651c18caee0220d5486ead",
+          "heading": "5. Ограничения полномочий: «читать» не значит «изменять»",
+          "kind": "S",
+          "source_lines": [
+            95,
+            113
+          ],
+          "text_revision_hash": "327a4132c5dbcc9f1e16a14b51e9f8873ac99eb57f8826705f3170b7dbc02c0f",
+          "unit_id": "ANS.L04.S06"
+        },
+        {
+          "assets": [
+            {
+              "restricted": true,
+              "sha256": "d4e662125a71402daac7e3704168d8077d0109b771b0f4e475b1a29af5f658c6"
+            },
+            {
+              "path": "data/pilot_cases_20_unlabeled.csv",
+              "resource_id": "ANS.L04.DATA04",
+              "sha256": "01bc3088fcb6fa3ebfcc18bb4891ab8d3cc8d0992687dc8aa5b2e386e3e35b4d"
+            },
+            {
+              "path": "demo/validate_report.py",
+              "resource_id": "ANS.L04.CODE05",
+              "sha256": "7697c48aeef6f6674ebc8cd76566420829be19e32b20465abec773701910eb2e"
+            },
+            {
+              "path": "templates/my-ai-startup/13_agent_role_card.md",
+              "resource_id": "ANS.L04.TPL01",
+              "sha256": "b1de1afca5c6175f91b7fe0b88d0e777c25343116e28ea57ae62fb53047ff53a"
+            },
+            {
+              "path": "templates/my-ai-startup/14_agent_task_contract.md",
+              "resource_id": "ANS.L04.TPL02",
+              "sha256": "0aa20834c2a00677f82ad85bd0d638e49fdc063feb1c5ff1eba9ce2da1c9e010"
+            },
+            {
+              "path": "templates/my-ai-startup/15_agent_tool_policy.md",
+              "resource_id": "ANS.L04.TPL03",
+              "sha256": "f7bdb1238b08babfff233ebf8ebc0a18971806ec44b6ed1ae29555be7caa6512"
+            },
+            {
+              "path": "templates/my-ai-startup/16_agent_run_log.csv",
+              "resource_id": "ANS.L04.TPL04",
+              "sha256": "7f6c6bf949d1d79821f78a4477db3ae2fd0c86beac8ea24ac37b2a435f6d1d46"
+            },
+            {
+              "path": "templates/my-ai-startup/17_agent_review.md",
+              "resource_id": "ANS.L04.TPL05",
+              "sha256": "6913e4f7a24a6d5c8c8890606d9242c27358fb80fb5763d4c2fc6678aad1af43"
+            }
+          ],
+          "bundle_revision_hash": "f150b827e2d4bd26d9d20330e5dcb38ba987b5e5a7ec8c164d3e6661b141b1da",
+          "heading": "6. Демонстрация: первый исполнитель за 20 минут",
+          "kind": "S",
+          "source_lines": [
+            114,
+            160
+          ],
+          "text_revision_hash": "ca8ad0ca47fc62eccbe3945bfc5a3e29ec1c51bc81e05b55df6e696b929f474d",
+          "unit_id": "ANS.L04.S07"
+        },
+        {
+          "assets": [
+            {
+              "path": "figures/fig03_quality_loop.png",
+              "resource_id": "ANS.L04.FIG03",
+              "sha256": "80541df27bc95d4230417a2c6e6a4038d7e204ddae10e089dc4bc7e011daaa69"
+            },
+            {
+              "path": "figures/fig03_quality_loop.svg",
+              "resource_id": "ANS.L04.FIG03",
+              "sha256": "73f727e40ced5ebfcb816dd791d92faf2eb2128916f71f5fb12a08db71740735"
+            },
+            {
+              "path": "templates/my-ai-startup/16_agent_run_log.csv",
+              "resource_id": "ANS.L04.TPL04",
+              "sha256": "7f6c6bf949d1d79821f78a4477db3ae2fd0c86beac8ea24ac37b2a435f6d1d46"
+            }
+          ],
+          "bundle_revision_hash": "771dbeb67dcc8e4c5e1c40bdd4c7d8424bd9dd590fb0e9b11a54be944eeb086a",
+          "heading": "7. Почему нужен журнал, даже если команда маленькая",
+          "kind": "S",
+          "source_lines": [
+            161,
+            170
+          ],
+          "text_revision_hash": "d8ed80bc31bfc80d3456686333b5f44723098b81e753b334f8b65905ec7a4538",
+          "unit_id": "ANS.L04.S08"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "17b9183ed56185a2c4990f487de5da02269f17bbc3fb3dc97b715674be8b5bca",
+          "heading": "8. Команда агентов: когда нужен второй исполнитель",
+          "kind": "S",
+          "source_lines": [
+            171,
+            183
+          ],
+          "text_revision_hash": "8ef5b697b15f55ae8fcd4fe852ea61ff547f496425396e54a93a814f531dae24",
+          "unit_id": "ANS.L04.S09"
+        },
+        {
+          "assets": [
+            {
+              "restricted": true,
+              "sha256": "f68b0b0476e7387e4fd091fa381ba371e7456647016849190aa3846c7896f6e9"
+            },
+            {
+              "path": "optional_live/agents_sdk_readonly.py",
+              "resource_id": "ANS.L04.CODE06",
+              "sha256": "31b1e21def390275a8690fac11d6885c48204e656a54ba814f803be48ad6aa3f"
+            }
+          ],
+          "bundle_revision_hash": "70988b10a8e6af01e623738e29be9096d70fd198242f34460a51a01514b19d34",
+          "heading": "9. Техническая вставка для желающих программировать",
+          "kind": "S",
+          "source_lines": [
+            184,
+            189
+          ],
+          "text_revision_hash": "97e481f8edd3583dc6a42c027991fc6d1678e0209b1a80107f412538405530f7",
+          "unit_id": "ANS.L04.S10"
+        },
+        {
+          "assets": [
+            {
+              "path": "data/adversarial_requests_6.csv",
+              "resource_id": "ANS.L04.DATA01",
+              "sha256": "3feeee1b326b4757604b3427aead37a4edf14509dbf6d054618f00261b5c7c13"
+            },
+            {
+              "path": "templates/my-ai-startup/13_agent_role_card.md",
+              "resource_id": "ANS.L04.TPL01",
+              "sha256": "b1de1afca5c6175f91b7fe0b88d0e777c25343116e28ea57ae62fb53047ff53a"
+            },
+            {
+              "path": "templates/my-ai-startup/14_agent_task_contract.md",
+              "resource_id": "ANS.L04.TPL02",
+              "sha256": "0aa20834c2a00677f82ad85bd0d638e49fdc063feb1c5ff1eba9ce2da1c9e010"
+            },
+            {
+              "path": "templates/my-ai-startup/15_agent_tool_policy.md",
+              "resource_id": "ANS.L04.TPL03",
+              "sha256": "f7bdb1238b08babfff233ebf8ebc0a18971806ec44b6ed1ae29555be7caa6512"
+            }
+          ],
+          "bundle_revision_hash": "9ce2af94a86d14751e54bb3f3833207aba9cb4fc1eefd3e4bce8c0fb5660ad00",
+          "heading": "10. Практика: оформите своего первого исполнителя (35 минут)",
+          "kind": "S",
+          "source_lines": [
+            190,
+            204
+          ],
+          "text_revision_hash": "b19fee3a74cd46609f0e14c86028f6db74070517d7215febd25657d09532a347",
+          "unit_id": "ANS.L04.S11"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "1001a1a138dd65522731413ca692ffecc85e68a2c04362610352806bc9236886",
+          "heading": "11. Как выбрать инструменты без бессмысленной гонки моделей",
+          "kind": "S",
+          "source_lines": [
+            205,
+            212
+          ],
+          "text_revision_hash": "c30dfcdcfaa7802aae410c31a76d5cc08f220c336b87fedc1f4ccd45f8d8e1bc",
+          "unit_id": "ANS.L04.S12"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "ffccba3b70d0c590d0b674f958f58dee64c40baf3906aadca71f24d8296dce7b",
+          "heading": "12. Типичные ошибки",
+          "kind": "S",
+          "source_lines": [
+            213,
+            226
+          ],
+          "text_revision_hash": "7bf91f39e2d87e58faf6acf8aa4e0bf384ae776d3bb41bdd40ec182902276c04",
+          "unit_id": "ANS.L04.S13"
+        },
+        {
+          "assets": [
+            {
+              "path": "templates/my-ai-startup/13_agent_role_card.md",
+              "resource_id": "ANS.L04.TPL01",
+              "sha256": "b1de1afca5c6175f91b7fe0b88d0e777c25343116e28ea57ae62fb53047ff53a"
+            },
+            {
+              "path": "templates/my-ai-startup/14_agent_task_contract.md",
+              "resource_id": "ANS.L04.TPL02",
+              "sha256": "0aa20834c2a00677f82ad85bd0d638e49fdc063feb1c5ff1eba9ce2da1c9e010"
+            },
+            {
+              "path": "templates/my-ai-startup/15_agent_tool_policy.md",
+              "resource_id": "ANS.L04.TPL03",
+              "sha256": "f7bdb1238b08babfff233ebf8ebc0a18971806ec44b6ed1ae29555be7caa6512"
+            },
+            {
+              "path": "templates/my-ai-startup/16_agent_run_log.csv",
+              "resource_id": "ANS.L04.TPL04",
+              "sha256": "7f6c6bf949d1d79821f78a4477db3ae2fd0c86beac8ea24ac37b2a435f6d1d46"
+            },
+            {
+              "path": "templates/my-ai-startup/17_agent_review.md",
+              "resource_id": "ANS.L04.TPL05",
+              "sha256": "6913e4f7a24a6d5c8c8890606d9242c27358fb80fb5763d4c2fc6678aad1af43"
+            }
+          ],
+          "bundle_revision_hash": "6b2718a9264e900f1996a1c245030a88420a4aae1268a6b3e8e3c252f1cb6ec6",
+          "heading": "13. Самостоятельная работа (30–45 минут)",
+          "kind": "S",
+          "source_lines": [
+            227,
+            232
+          ],
+          "text_revision_hash": "3f8c8353ccaaca8540f0ab83d59aa31ba8db7cefcf18bb6dd6faa5a6ba7db9f3",
+          "unit_id": "ANS.L04.S14"
+        },
+        {
+          "assets": [
+            {
+              "path": "templates/my-ai-startup/13_agent_role_card.md",
+              "resource_id": "ANS.L04.TPL01",
+              "sha256": "b1de1afca5c6175f91b7fe0b88d0e777c25343116e28ea57ae62fb53047ff53a"
+            },
+            {
+              "path": "templates/my-ai-startup/14_agent_task_contract.md",
+              "resource_id": "ANS.L04.TPL02",
+              "sha256": "0aa20834c2a00677f82ad85bd0d638e49fdc063feb1c5ff1eba9ce2da1c9e010"
+            },
+            {
+              "path": "templates/my-ai-startup/15_agent_tool_policy.md",
+              "resource_id": "ANS.L04.TPL03",
+              "sha256": "f7bdb1238b08babfff233ebf8ebc0a18971806ec44b6ed1ae29555be7caa6512"
+            },
+            {
+              "path": "templates/my-ai-startup/16_agent_run_log.csv",
+              "resource_id": "ANS.L04.TPL04",
+              "sha256": "7f6c6bf949d1d79821f78a4477db3ae2fd0c86beac8ea24ac37b2a435f6d1d46"
+            },
+            {
+              "path": "templates/my-ai-startup/17_agent_review.md",
+              "resource_id": "ANS.L04.TPL05",
+              "sha256": "6913e4f7a24a6d5c8c8890606d9242c27358fb80fb5763d4c2fc6678aad1af43"
+            },
+            {
+              "path": "templates/my-ai-startup/agent/AGENT_INSTRUCTIONS.md",
+              "resource_id": "ANS.L04.TPL07",
+              "sha256": "a8de39da8b12871f8df4678eee5e7356a4a75c1f53cc82141e1871d12c8e3526"
+            }
+          ],
+          "bundle_revision_hash": "5263c1547e84f0881134bb95117efec223f46d0d565e2d4e9b97845d3d57f709",
+          "heading": "14. Артефакты сквозного стартапа",
+          "kind": "S",
+          "source_lines": [
+            233,
+            270
+          ],
+          "text_revision_hash": "7eaca0eef0a0893f1f9bb97c9f74f416b78c9ed6104f74dbe3df28d167565ef9",
+          "unit_id": "ANS.L04.S15"
+        }
+      ],
+      "title": "Создаём собственную команду ИИ-исполнителей",
+      "workbook_units": [
+        {
+          "assets": [],
+          "bundle_revision_hash": "5953470a7732832b5e8aeac66c4fa0f77845d9d1f9244abb012173a726295c91",
+          "heading": "Вход в тетрадь",
+          "kind": "W",
+          "source_lines": [
+            1,
+            6
+          ],
+          "text_revision_hash": "fbccf340d0931416802647a61d9880091fe41def6a851280ecd477723de98aa0",
+          "unit_id": "ANS.L04.W00"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "465956972de20a3f76b3c085bf5517df7f62310542425e695d171c8143a26ec6",
+          "heading": "Вход в упражнение",
+          "kind": "W",
+          "source_lines": [
+            7,
+            16
+          ],
+          "text_revision_hash": "275b2ef1ed7e75012d1f429f2b0e5a6dda0e83656564dcedc155bfeae330b182",
+          "unit_id": "ANS.L04.W01"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "96d04b63097e6ca2243afbaf3b7560a7f7381a976e2684adcf3b632eac8a96b3",
+          "heading": "0. Запишите прогноз (до объяснения)",
+          "kind": "W",
+          "source_lines": [
+            17,
+            26
+          ],
+          "text_revision_hash": "fc068734dac5beeaa4b95adb0d7fd1abc63fcd5f996d2b9636f33b0584cb6a75",
+          "unit_id": "ANS.L04.W02"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "5d933bc830b04f8e24743ab245343caf7f1b8ffc9dadd2b861535e0f47802ecb",
+          "heading": "Задание 1 (4 минуты). Опишите работу, не должность",
+          "kind": "W",
+          "source_lines": [
+            27,
+            40
+          ],
+          "text_revision_hash": "072a2cb8f6c93ceff16c1ef2afa5edfae41b8a216391b43a3c5b6fb557849622",
+          "unit_id": "ANS.L04.W03"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "011f55ae1b61d80355e39e9c18d74c37beeb90f782a9d8d4a2269bc681367e8d",
+          "heading": "Задание 2 (4 минуты). Паспорт первого исполнителя",
+          "kind": "W",
+          "source_lines": [
+            41,
+            54
+          ],
+          "text_revision_hash": "ada013fdc54c950413106918f4b5f206b110c71fcdfde66064f22636703ce434",
+          "unit_id": "ANS.L04.W04"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "c21ed2897d39745b994d6b66d6f108673c778902e34957042315f49bfe1e4ba7",
+          "heading": "Задание 3 (5 минут). Контракт одной задачи",
+          "kind": "W",
+          "source_lines": [
+            55,
+            72
+          ],
+          "text_revision_hash": "521e42d978bcdf306d4a9a71ca6ca1272c2f51955361edd62c25bc910543578c",
+          "unit_id": "ANS.L04.W05"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "e07f8b5c5de393052bcc27e6300d6d082c67a2cc91695099ae177c64c06eba51",
+          "heading": "Задание 4 (4 минуты). Карта полномочий",
+          "kind": "W",
+          "source_lines": [
+            73,
+            88
+          ],
+          "text_revision_hash": "c43e9b1d889565edeed63082747e0e0fd4971234fcc00c5d0b65ac585a6c0f13",
+          "unit_id": "ANS.L04.W06"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "6dc409713146a34fddbf510084ea602ccfaf9b3e41b0a5bca9681dc1f1ba4663",
+          "heading": "Задание 5 (7 минут). Первый контролируемый прогон",
+          "kind": "W",
+          "source_lines": [
+            89,
+            107
+          ],
+          "text_revision_hash": "216046f49c2ea7f0212aa5218ee90f8106728cf3b4b8facd7b2983d7eb3e15a4",
+          "unit_id": "ANS.L04.W07"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "780831bad431652561781a74ff5305c159b2dea34588df37375b4071e84454ae",
+          "heading": "Задание 6 (4 минуты). Проверка от источника",
+          "kind": "W",
+          "source_lines": [
+            108,
+            119
+          ],
+          "text_revision_hash": "f3a6cb727ebbf2439f9866ad494e01ecdd80f877acfd9dc0a2cc5649f49a53df",
+          "unit_id": "ANS.L04.W08"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "491a1fa697d08f1eb165d91d9539d2ff486bcd8e01f17cce841bbaaf982e0c98",
+          "heading": "Задание 7 (4 минуты). Инструкции, спрятанные в данных",
+          "kind": "W",
+          "source_lines": [
+            120,
+            130
+          ],
+          "text_revision_hash": "148ef5e5181f04ab377eeaa3397a836dff1f756cf2bf14a512874ad50cc046a2",
+          "unit_id": "ANS.L04.W09"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "2169231eae421d3918d2b3b5e305effb458cb77913cd1f62a66b488e0f8e9ad5",
+          "heading": "Задание 8 (3 минуты). Решение о приёмке",
+          "kind": "W",
+          "source_lines": [
+            131,
+            145
+          ],
+          "text_revision_hash": "42dbf5b0020f029a86271c58f4984efef11640cb2ad9cb24ba26bc672e474a65",
+          "unit_id": "ANS.L04.W10"
+        },
+        {
+          "assets": [],
+          "bundle_revision_hash": "ef9ad480a446589206336244201f70046db52dc01453c910b00ccaa8e841ec94",
+          "heading": "Самостоятельная работа (30–45 минут)",
+          "kind": "W",
+          "source_lines": [
+            146,
+            163
+          ],
+          "text_revision_hash": "11862626b1c8c661d05418004a5e42879d60347341cfe7a9ef4cdc8ef6ff978b",
+          "unit_id": "ANS.L04.W11"
+        }
+      ]
+    }
+  ],
+  "planned_lessons": [
+    "ANS.L05",
+    "ANS.L06",
+    "ANS.L07",
+    "ANS.L08",
+    "ANS.L09",
+    "ANS.L10",
+    "ANS.L11",
+    "ANS.L12"
+  ],
+  "private_manifest_digest": "a0cd56be14978cfcb47a1932d017ab458b077003e1757384ef16ad6b92f9e925",
+  "public_manifest_digest": "b9e9ffed3d516c4c501ca5af01090bd767e0caeffd0e2f337a9f2b3ad3bca462",
+  "release_id": "r0001",
+  "release_state": "CANDIDATE",
+  "schema_version": "1.0.0",
+  "source_commit_sha": "6d5747a7e5643114d09816ccaf9ee30b51d7d79b"
+}
